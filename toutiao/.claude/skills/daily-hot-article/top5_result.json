@@ -1,0 +1,127 @@
+[
+  {
+    "title": "南开大学通报生科院院长学术造假，​免去其院长职务，解除论文第一作者与学校聘用关系，具有哪些警示意义？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "zhihu": 16
+    },
+    "click_score": 22,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "空气炸锅炸的食品会致癌吗",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1380000,
+    "total_score": 1380000,
+    "platform_ranks": {
+      "douyin": 12
+    },
+    "click_score": 20,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 8,
+      "relevance": 7,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "解放军代表回应美防长香会表态",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 2078968,
+    "estimated_hot": 0,
+    "total_score": 2078968,
+    "platform_ranks": {
+      "toutiao": 19
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "“南天门计划”最新进展曝光",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 2,
+    "hotindex": 0,
+    "estimated_hot": 1480000,
+    "total_score": 1480000,
+    "platform_ranks": {
+      "baidu": 2
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "如何看待 91 岁「裘千尺」演员罗兰被 TVB 官网除名，本人回应「因为超龄，公司不再续约」？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 6,
+    "hotindex": 0,
+    "estimated_hot": 1440000,
+    "total_score": 1440000,
+    "platform_ranks": {
+      "zhihu": 6
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  }
+]
