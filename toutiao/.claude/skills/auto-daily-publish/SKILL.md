@@ -19,7 +19,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 ```
 ┌─────────────────────────────────────────────┐
 │  Phase 1: 扫描文章                             │
-│  扫描 F:/article/ 下是否有 *_头条文章.md        │
+│  扫描 /Users/wangc/ClaudeWorkspace/toutiao/article/ 下是否有 *_头条文章.md        │
 ├─────────────────────────────────────────────┤
 │  有文章 ──→ Phase 3 (跳过生成)                  │
 │  无文章 ──→ Phase 2 (生成文章)                  │
@@ -40,7 +40,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 
 ## Phase 1：扫描现有文章
 
-扫描 `F:/article/` 目录，查找所有 `*_头条文章.md` 文件：
+扫描 `/Users/wangc/ClaudeWorkspace/toutiao/article/` 目录，查找所有 `*_头条文章.md` 文件：
 
 - **排除规则**：排除目录下的 SKILL.md、README.md 等非文章文件，只匹配以 `_头条文章.md` 结尾的文件
 - **有文章 → 跳过生成**：直接进入 Phase 3 发布流程
@@ -50,7 +50,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 
 ## Phase 2：自动生成 Top 3 热点文章
 
-当 `F:/article/` 下没有现有文章时，调用 `daily-hot-article` skill 自动生成 3 篇热点文章。
+当 `/Users/wangc/ClaudeWorkspace/toutiao/article/` 下没有现有文章时，调用 `daily-hot-article` skill 自动生成 3 篇热点文章。
 
 ### 2.1 搜集热点（daily-hot-article Step 1-2）
 
@@ -81,7 +81,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 
 **循环执行**：第 1 个话题 → 完成 → 第 2 个话题 → 完成 → 第 3 个话题 → 完成。
 
-所有文章输出到 `F:/article/`，文件名格式：`{话题标题}_头条文章.md`。
+所有文章输出到 `/Users/wangc/ClaudeWorkspace/toutiao/article/`，文件名格式：`{话题标题}_头条文章.md`。
 
 ### 2.4 写作规范
 
@@ -95,7 +95,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 
 ## Phase 3：发布最旧一篇文章
 
-从 `F:/article/` 下所有 `*_头条文章.md` 中，**取修改时间最旧的一篇**进行发布。只发布一篇，不循环。
+从 `/Users/wangc/ClaudeWorkspace/toutiao/article/` 下所有 `*_头条文章.md` 中，**取修改时间最旧的一篇**进行发布。只发布一篇，不循环。
 
 ### 3.1 发布单篇文章
 
@@ -124,7 +124,7 @@ description: 自动化端到端工作流：检查文章 → 无则自动生成To
 发布成功后，**立即删除**该文章的 `.md` 文件：
 
 ```
-发布成功 → 删除 F:/article/{文章文件名}.md
+发布成功 → 删除 /Users/wangc/ClaudeWorkspace/toutiao/article/{文章文件名}.md
 ```
 
 删除前确认：

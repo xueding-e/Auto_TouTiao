@@ -32,7 +32,7 @@ https://mp.toutiao.com/profile_v4/graphic/publish?from=toutiao_pc
 
 ### 第三步：扫描本地文章
 
-扫描用户指定的文章文件夹（默认 `F:/article`），找到所有 `.md` 文件：
+扫描用户指定的文章文件夹（默认 `/Users/wangc/ClaudeWorkspace/toutiao/article`），找到所有 `.md` 文件：
 
 - 如果有多个 `.md` 文件，按**修改时间排序**，取最新的一个
 - 如果文件夹下没有 `.md` 文件，告知用户并停止
@@ -320,7 +320,7 @@ for (const label of labels) {
 
 ## 文件输入
 
-- **默认文章目录**：`F:/article`
+- **默认文章目录**：`/Users/wangc/ClaudeWorkspace/toutiao/article`
 - **文件格式**：`.md`（Markdown）
 - **编码**：UTF-8
 

@@ -1,0 +1,5930 @@
+[
+  {
+    "title": "店铺回应顾客米粥中吃出连环刀片",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 28,
+    "hotindex": 842030,
+    "estimated_hot": 0,
+    "total_score": 842030,
+    "platform_ranks": {
+      "baidu": 30,
+      "toutiao": 28
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "普京回应“经济崩溃论”",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 1695641,
+    "estimated_hot": 0,
+    "total_score": 1695641,
+    "platform_ranks": {
+      "toutiao": 17
+    },
+    "click_score": 28,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 8,
+      "relevance": 0,
+      "extend": 10,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "重庆动物园用活兔活鸡喂蛇引争议",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "baidu": 28
+    },
+    "click_score": 25,
+    "click_detail": {
+      "conflict": 20,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女讲师被要求50岁退休 起诉学校败诉",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 40,
+    "hotindex": 1136622,
+    "estimated_hot": 0,
+    "total_score": 1136622,
+    "platform_ranks": {
+      "toutiao": 40
+    },
+    "click_score": 25,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 8,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "官方回应教练的孩子进集训队",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 4170604,
+    "estimated_hot": 0,
+    "total_score": 4170604,
+    "platform_ranks": {
+      "toutiao": 11
+    },
+    "click_score": 22,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "南开大学一学生被电诈骗220万",
+    "sources": [
+      "baidu",
+      "weibo"
+    ],
+    "source_count": 2,
+    "best_rank": 1,
+    "hotindex": 0,
+    "estimated_hot": 1990000,
+    "total_score": 1990000,
+    "platform_ranks": {
+      "weibo": 1,
+      "baidu": 2
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.05,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "豆包误判蘑菇致用户中毒 高管回应",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 4,
+    "hotindex": 0,
+    "estimated_hot": 1460000,
+    "total_score": 1460000,
+    "platform_ranks": {
+      "baidu": 4
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "瑞幸回应咖啡去冰后仅半杯，称去冰不满杯属于正常操作，这合理吗？算是变相的缺斤短两吗？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 4,
+    "hotindex": 0,
+    "estimated_hot": 1460000,
+    "total_score": 1460000,
+    "platform_ranks": {
+      "zhihu": 4
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "朱开回应被批评称「联盟要求不要回应，我背锅背惯了」，这反映了电竞行业哪些问题？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 0,
+    "estimated_hot": 1400000,
+    "total_score": 1400000,
+    "platform_ranks": {
+      "zhihu": 10
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "强绑日活,洛手赛季任务惹争议",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 15,
+    "hotindex": 0,
+    "estimated_hot": 1350000,
+    "total_score": 1350000,
+    "platform_ranks": {
+      "tieba": 15
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "体育",
+    "reject": false
+  },
+  {
+    "title": "朱开回应点名:替管理层背锅",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "tieba": 18
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "普京称待冲突结束俄乌应说谢天谢地",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 22,
+    "hotindex": 0,
+    "estimated_hot": 1280000,
+    "total_score": 1280000,
+    "platform_ranks": {
+      "toutiao": 22
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "世界杯两大夺冠热门热身赛同时翻车",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 35,
+    "hotindex": 0,
+    "estimated_hot": 1150000,
+    "total_score": 1150000,
+    "platform_ranks": {
+      "baidu": 35
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "抖音副总裁回应豆包误判蘑菇",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 42,
+    "hotindex": 0,
+    "estimated_hot": 1080000,
+    "total_score": 1080000,
+    "platform_ranks": {
+      "weibo": 42
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "网警护航高考 | 况某谎称售卖“2026高考题”实施诈骗被查",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 6,
+    "hotindex": 6876163,
+    "estimated_hot": 0,
+    "total_score": 6876163,
+    "platform_ranks": {
+      "baidu": 6,
+      "toutiao": 6
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "公司半夜通知全员放假后一夜搬空，200 名员工遭欠薪，员工该如何维权？公司跑路前一般有哪些征兆？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 13,
+    "hotindex": 0,
+    "estimated_hot": 1370000,
+    "total_score": 1370000,
+    "platform_ranks": {
+      "zhihu": 13
+    },
+    "click_score": 14,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 14,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "教育部发布2026年高考十问十答",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "douyin": 5
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "成都公积金单人可贷150万系谣言",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 0,
+    "estimated_hot": 1390000,
+    "total_score": 1390000,
+    "platform_ranks": {
+      "baidu": 11
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女生被骗泰国摆拍绑架要300万赎金",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 40,
+    "hotindex": 0,
+    "estimated_hot": 1100000,
+    "total_score": 1100000,
+    "platform_ranks": {
+      "weibo": 40
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "湘雅二医院逾8亿元工程招标疑云",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 47,
+    "hotindex": 0,
+    "estimated_hot": 1030000,
+    "total_score": 1030000,
+    "platform_ranks": {
+      "baidu": 47
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "甘肃农户8年未获惠农补贴 当地介入",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 49,
+    "hotindex": 0,
+    "estimated_hot": 1010000,
+    "total_score": 1010000,
+    "platform_ranks": {
+      "baidu": 49
+    },
+    "click_score": 10,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "养老金是怎样构成的",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 15,
+    "hotindex": 2529599,
+    "estimated_hot": 0,
+    "total_score": 2529599,
+    "platform_ranks": {
+      "toutiao": 15
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "意识到了一杯奶茶钱真不是小钱",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 4,
+    "hotindex": 0,
+    "estimated_hot": 1460000,
+    "total_score": 1460000,
+    "platform_ranks": {
+      "weibo": 4
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "韩国证券账户数比总人口还多，年轻人借钱炒股甚至辞职全职投资，这轮牛市为何成了普通人的「最后一搏」？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 0,
+    "estimated_hot": 1410000,
+    "total_score": 1410000,
+    "platform_ranks": {
+      "zhihu": 9
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "警惕五类常见高考骗局话术",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 0,
+    "estimated_hot": 1390000,
+    "total_score": 1390000,
+    "platform_ranks": {
+      "douyin": 11
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "判断孩子有没有学霸潜质",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "weibo": 16
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "LPL没钱?大黄口嗨挨罚",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 29,
+    "hotindex": 0,
+    "estimated_hot": 1210000,
+    "total_score": 1210000,
+    "platform_ranks": {
+      "tieba": 29
+    },
+    "click_score": 7,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "曝豆包推付费计划后月活减少610万",
+    "sources": [
+      "baidu",
+      "weibo"
+    ],
+    "source_count": 2,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1880000,
+    "total_score": 1880000,
+    "platform_ranks": {
+      "weibo": 12,
+      "baidu": 17
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.05,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "实习医生无证拔牙致人死亡获刑1年半",
+    "sources": [
+      "baidu",
+      "weibo"
+    ],
+    "source_count": 2,
+    "best_rank": 30,
+    "hotindex": 0,
+    "estimated_hot": 1700000,
+    "total_score": 1700000,
+    "platform_ranks": {
+      "weibo": 30,
+      "baidu": 39
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.05,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "河南一天11万台收割机抢收小麦",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 5093987,
+    "estimated_hot": 0,
+    "total_score": 5093987,
+    "platform_ranks": {
+      "toutiao": 9
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "男子落水7天6夜从海口漂到澄迈",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 2,
+    "hotindex": 0,
+    "estimated_hot": 1480000,
+    "total_score": 1480000,
+    "platform_ranks": {
+      "weibo": 2
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "央行开展5000亿买断式逆回购",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 7,
+    "hotindex": 0,
+    "estimated_hot": 1430000,
+    "total_score": 1430000,
+    "platform_ranks": {
+      "douyin": 7
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "财经",
+    "reject": false
+  },
+  {
+    "title": "游客海上漂了7天6夜 生吃螃蟹求生",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 0,
+    "estimated_hot": 1400000,
+    "total_score": 1400000,
+    "platform_ranks": {
+      "baidu": 10
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "58岁校长跳霹雳舞给高三考生解压",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "baidu": 16
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "黄磊孙莉9岁儿子正脸照",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 22,
+    "hotindex": 0,
+    "estimated_hot": 1280000,
+    "total_score": 1280000,
+    "platform_ranks": {
+      "weibo": 22
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "3人P图办假证开了40多家蛋糕店",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 22,
+    "hotindex": 0,
+    "estimated_hot": 1280000,
+    "total_score": 1280000,
+    "platform_ranks": {
+      "baidu": 22
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "比学生大7岁班主任收到学生突然惊喜",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 25,
+    "hotindex": 0,
+    "estimated_hot": 1250000,
+    "total_score": 1250000,
+    "platform_ranks": {
+      "baidu": 25
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "A股一公司向69名骨干派发4.15亿股票",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 38,
+    "hotindex": 0,
+    "estimated_hot": 1120000,
+    "total_score": 1120000,
+    "platform_ranks": {
+      "baidu": 38
+    },
+    "click_score": 3,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 3,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "财经",
+    "reject": false
+  },
+  {
+    "title": "英国间谍2次偷窃中国茶叶机密",
+    "sources": [
+      "baidu",
+      "toutiao",
+      "weibo"
+    ],
+    "source_count": 3,
+    "best_rank": 2,
+    "hotindex": 8398565,
+    "estimated_hot": 0,
+    "total_score": 8398565,
+    "platform_ranks": {
+      "weibo": 26,
+      "baidu": 7,
+      "toutiao": 2
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.03,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "旅客在高铁上使用电风扇被乘警阻止",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 1,
+    "hotindex": 10258030,
+    "estimated_hot": 0,
+    "total_score": 10258030,
+    "platform_ranks": {
+      "baidu": 42,
+      "toutiao": 1
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "泽连斯基公开致信普京",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 8,
+    "hotindex": 5629726,
+    "estimated_hot": 0,
+    "total_score": 5629726,
+    "platform_ranks": {
+      "baidu": 14,
+      "toutiao": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "记者卧底“鸡蛋造富神话”训练营",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 14,
+    "hotindex": 3089659,
+    "estimated_hot": 0,
+    "total_score": 3089659,
+    "platform_ranks": {
+      "baidu": 15,
+      "toutiao": 14
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "乌拉圭宣布对中国公民免签",
+    "sources": [
+      "baidu",
+      "douyin"
+    ],
+    "source_count": 2,
+    "best_rank": 4,
+    "hotindex": 0,
+    "estimated_hot": 1960000,
+    "total_score": 1960000,
+    "platform_ranks": {
+      "baidu": 19,
+      "douyin": 4
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.9,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "电视剧攻玉角色官宣",
+    "sources": [
+      "douyin",
+      "weibo"
+    ],
+    "source_count": 2,
+    "best_rank": 13,
+    "hotindex": 0,
+    "estimated_hot": 1870000,
+    "total_score": 1870000,
+    "platform_ranks": {
+      "weibo": 44,
+      "douyin": 13
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.95,
+    "category": "娱乐",
+    "reject": false
+  },
+  {
+    "title": "曝美军福特号航母火灾远比描述严重",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 35,
+    "hotindex": 0,
+    "estimated_hot": 1650000,
+    "total_score": 1650000,
+    "platform_ranks": {
+      "baidu": 44,
+      "toutiao": 35
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "《给阿嬷的情书》宣布：全球上映",
+    "sources": [
+      "baidu",
+      "douyin"
+    ],
+    "source_count": 2,
+    "best_rank": 24,
+    "hotindex": 84420,
+    "estimated_hot": 0,
+    "total_score": 84420,
+    "platform_ranks": {
+      "baidu": 26,
+      "douyin": 24
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.9,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女子称住酒店赤裸卧床遭陌生男子开门",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 4,
+    "hotindex": 11336877,
+    "estimated_hot": 0,
+    "total_score": 11336877,
+    "platform_ranks": {
+      "toutiao": 4
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "中国电动汽车走向世界推动共赢",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 9281849,
+    "estimated_hot": 0,
+    "total_score": 9281849,
+    "platform_ranks": {
+      "toutiao": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "狗狗不忍心鱼被宰杀叼到水里放生",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 7,
+    "hotindex": 7599335,
+    "estimated_hot": 0,
+    "total_score": 7599335,
+    "platform_ranks": {
+      "toutiao": 7
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "重庆大轰炸幸存者仍在等待一句道歉",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 6221810,
+    "estimated_hot": 0,
+    "total_score": 6221810,
+    "platform_ranks": {
+      "toutiao": 5
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "日本为何一直在台湾问题上挑衅",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 4609230,
+    "estimated_hot": 0,
+    "total_score": 4609230,
+    "platform_ranks": {
+      "toutiao": 10
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "官方辟谣广西隆林天生桥发生泥石流",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 3773718,
+    "estimated_hot": 0,
+    "total_score": 3773718,
+    "platform_ranks": {
+      "toutiao": 12
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考倒计时",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 13,
+    "hotindex": 3414601,
+    "estimated_hot": 0,
+    "total_score": 3414601,
+    "platform_ranks": {
+      "toutiao": 13
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "毛坦厂送考车牌91666“就要录录录”",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 2795639,
+    "estimated_hot": 0,
+    "total_score": 2795639,
+    "platform_ranks": {
+      "toutiao": 16
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "伊朗最高领袖发表书面致辞呼吁团结",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 2288876,
+    "estimated_hot": 0,
+    "total_score": 2288876,
+    "platform_ranks": {
+      "toutiao": 19
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "券商解析A股到底是怎么运行的",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 31,
+    "hotindex": 2071060,
+    "estimated_hot": 0,
+    "total_score": 2071060,
+    "platform_ranks": {
+      "toutiao": 31
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "财经",
+    "reject": false
+  },
+  {
+    "title": "中国小电驴在英国卖爆了",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 1534279,
+    "estimated_hot": 0,
+    "total_score": 1534279,
+    "platform_ranks": {
+      "toutiao": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "外交部介绍习近平访问朝鲜有关安排",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 1,
+    "hotindex": 0,
+    "estimated_hot": 1490000,
+    "total_score": 1490000,
+    "platform_ranks": {
+      "baidu": 1
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "时政",
+    "reject": false
+  },
+  {
+    "title": "耐克原价 899 元几个月后变 429 元，奥特莱斯货架上堆积如山，为什么中国消费者现在都不穿耐克了？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 1,
+    "hotindex": 0,
+    "estimated_hot": 1490000,
+    "total_score": 1490000,
+    "platform_ranks": {
+      "zhihu": 1
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "我的梦中情房申请出招",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 1,
+    "hotindex": 0,
+    "estimated_hot": 1490000,
+    "total_score": 1490000,
+    "platform_ranks": {
+      "douyin": 1
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "新金主!比亚迪官宣赞助LPL",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 1,
+    "hotindex": 0,
+    "estimated_hot": 1490000,
+    "total_score": 1490000,
+    "platform_ranks": {
+      "tieba": 1
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "欧洲智库报告称「中国冲击波」正「吃掉德国工业午餐」，面对合作与对抗两难，德国将如何抉择？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 2,
+    "hotindex": 0,
+    "estimated_hot": 1480000,
+    "total_score": 1480000,
+    "platform_ranks": {
+      "zhihu": 2
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "芒种至好运至",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 2,
+    "hotindex": 0,
+    "estimated_hot": 1480000,
+    "total_score": 1480000,
+    "platform_ranks": {
+      "douyin": 2
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "Bin哥摆烂原因:薪水太低",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 2,
+    "hotindex": 0,
+    "estimated_hot": 1480000,
+    "total_score": 1480000,
+    "platform_ranks": {
+      "tieba": 2
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "美丽中国行",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 0,
+    "estimated_hot": 1470000,
+    "total_score": 1470000,
+    "platform_ranks": {
+      "weibo": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "用“平常心”为高考“助攻”",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 0,
+    "estimated_hot": 1470000,
+    "total_score": 1470000,
+    "platform_ranks": {
+      "baidu": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "多地高考安检要求戴眼镜考生摘镜查验，以防智能眼镜作弊，如何看待这一措施？为啥今年会加强眼镜检查？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 0,
+    "estimated_hot": 1470000,
+    "total_score": 1470000,
+    "platform_ranks": {
+      "zhihu": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "农业农村现代化“十五五”怎么干",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 0,
+    "estimated_hot": 1470000,
+    "total_score": 1470000,
+    "platform_ranks": {
+      "douyin": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "纯炫富?学生点外卖被diss",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 3,
+    "hotindex": 0,
+    "estimated_hot": 1470000,
+    "total_score": 1470000,
+    "platform_ranks": {
+      "tieba": 3
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "江西媒体吹捧新造词",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 4,
+    "hotindex": 0,
+    "estimated_hot": 1460000,
+    "total_score": 1460000,
+    "platform_ranks": {
+      "tieba": 4
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "中央空调才是电费刺客",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "weibo": 5
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "《主角》意外让《小鱼儿与花无缺》再火",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "baidu": 5
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "为什么那么多人很多年后才发现《黑猫警长》动画片只有五集？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "zhihu": 5
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "地理考生被亲妈背刺转生物",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "tieba": 5
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考加油红包",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 6,
+    "hotindex": 0,
+    "estimated_hot": 1440000,
+    "total_score": 1440000,
+    "platform_ranks": {
+      "weibo": 6
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "如何看待「Anthropic 呼吁全员停止 AI 研究」的行为？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 6,
+    "hotindex": 0,
+    "estimated_hot": 1440000,
+    "total_score": 1440000,
+    "platform_ranks": {
+      "zhihu": 6
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "网警护航高考",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 6,
+    "hotindex": 0,
+    "estimated_hot": 1440000,
+    "total_score": 1440000,
+    "platform_ranks": {
+      "douyin": 6
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "黄仁勋韩国行点名见Faker",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 6,
+    "hotindex": 0,
+    "estimated_hot": 1440000,
+    "total_score": 1440000,
+    "platform_ranks": {
+      "tieba": 6
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "周杰伦北京抢票",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 7,
+    "hotindex": 0,
+    "estimated_hot": 1430000,
+    "total_score": 1430000,
+    "platform_ranks": {
+      "weibo": 7
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "电影《特立独行》中白敬亭造型被戏称「国产版祖国人」 ，你觉得如何？算致敬吗？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 7,
+    "hotindex": 0,
+    "estimated_hot": 1430000,
+    "total_score": 1430000,
+    "platform_ranks": {
+      "zhihu": 7
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "娱乐",
+    "reject": false
+  },
+  {
+    "title": "要凉?终末地官号疯狂掉粉",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 7,
+    "hotindex": 0,
+    "estimated_hot": 1430000,
+    "total_score": 1430000,
+    "platform_ranks": {
+      "tieba": 7
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "二手油车价格",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 8,
+    "hotindex": 0,
+    "estimated_hot": 1420000,
+    "total_score": 1420000,
+    "platform_ranks": {
+      "weibo": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "曾经的“国民饮料”康师傅卖不动了",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 8,
+    "hotindex": 0,
+    "estimated_hot": 1420000,
+    "total_score": 1420000,
+    "platform_ranks": {
+      "baidu": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "挪威附近发现 18 世纪沉船，载有中国瓷器等珍贵文物，对历史研究有哪些价值？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 8,
+    "hotindex": 0,
+    "estimated_hot": 1420000,
+    "total_score": 1420000,
+    "platform_ranks": {
+      "zhihu": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "富途控股调整中国境内服务",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 8,
+    "hotindex": 0,
+    "estimated_hot": 1420000,
+    "total_score": 1420000,
+    "platform_ranks": {
+      "douyin": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "机器人表演飞踢误伤小孩哥",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 8,
+    "hotindex": 0,
+    "estimated_hot": 1420000,
+    "total_score": 1420000,
+    "platform_ranks": {
+      "tieba": 8
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "中餐厅收工合照",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 0,
+    "estimated_hot": 1410000,
+    "total_score": 1410000,
+    "platform_ranks": {
+      "weibo": 9
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "日本拥核已是现实威胁",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 0,
+    "estimated_hot": 1410000,
+    "total_score": 1410000,
+    "platform_ranks": {
+      "baidu": 9
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "三角洲足球鼠鼠活动攻略",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 0,
+    "estimated_hot": 1410000,
+    "total_score": 1410000,
+    "platform_ranks": {
+      "douyin": 9
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女童困电梯求救,保安冷眼旁观",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 9,
+    "hotindex": 0,
+    "estimated_hot": 1410000,
+    "total_score": 1410000,
+    "platform_ranks": {
+      "tieba": 9
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "C罗姆巴佩詹姆斯超燃世界杯短片",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 0,
+    "estimated_hot": 1400000,
+    "total_score": 1400000,
+    "platform_ranks": {
+      "weibo": 10
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "大主宰2北苍全员团魂燃烧",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 0,
+    "estimated_hot": 1400000,
+    "total_score": 1400000,
+    "platform_ranks": {
+      "douyin": 10
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "耐克卖不动,品牌光环失灵",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 10,
+    "hotindex": 0,
+    "estimated_hot": 1400000,
+    "total_score": 1400000,
+    "platform_ranks": {
+      "tieba": 10
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "陈学冬 避谶",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 0,
+    "estimated_hot": 1390000,
+    "total_score": 1390000,
+    "platform_ranks": {
+      "weibo": 11
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "世界杯前热身赛，姆巴佩率队法国 1-2 科特迪瓦，如何评价本场比赛？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 0,
+    "estimated_hot": 1390000,
+    "total_score": 1390000,
+    "platform_ranks": {
+      "zhihu": 11
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "鉴挂主播力挺CS女武神",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 0,
+    "estimated_hot": 1390000,
+    "total_score": 1390000,
+    "platform_ranks": {
+      "tieba": 11
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女生无障碍沟通黑天鹅捞起落水反光板",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 25,
+    "hotindex": 1388273,
+    "estimated_hot": 0,
+    "total_score": 1388273,
+    "platform_ranks": {
+      "toutiao": 25
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "美籍华人带102名美国学生来中国旅游",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1380000,
+    "total_score": 1380000,
+    "platform_ranks": {
+      "baidu": 12
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "如何证明大语言模型不是中文屋（The Chinese Room）？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1380000,
+    "total_score": 1380000,
+    "platform_ranks": {
+      "zhihu": 12
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考从不是终点",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1380000,
+    "total_score": 1380000,
+    "platform_ranks": {
+      "douyin": 12
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "难顶!绿龙主教练双双缺席",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 12,
+    "hotindex": 0,
+    "estimated_hot": 1380000,
+    "total_score": 1380000,
+    "platform_ranks": {
+      "tieba": 12
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "A股",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 13,
+    "hotindex": 0,
+    "estimated_hot": 1370000,
+    "total_score": 1370000,
+    "platform_ranks": {
+      "weibo": 13
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "财经",
+    "reject": false
+  },
+  {
+    "title": "马宁 身后是强大祖国和空无一人球队",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 13,
+    "hotindex": 0,
+    "estimated_hot": 1370000,
+    "total_score": 1370000,
+    "platform_ranks": {
+      "baidu": 13
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "Jump搞真人封面,粉丝连夜脱坑",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 13,
+    "hotindex": 0,
+    "estimated_hot": 1370000,
+    "total_score": 1370000,
+    "platform_ranks": {
+      "tieba": 13
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "奚梦瑶模特朋友一个没来",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 14,
+    "hotindex": 0,
+    "estimated_hot": 1360000,
+    "total_score": 1360000,
+    "platform_ranks": {
+      "weibo": 14
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "为什么钓鱼只有一次和无数次呢？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 14,
+    "hotindex": 0,
+    "estimated_hot": 1360000,
+    "total_score": 1360000,
+    "platform_ranks": {
+      "zhihu": 14
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "沈阳巨无霸豪华烤冷面太夯了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 14,
+    "hotindex": 0,
+    "estimated_hot": 1360000,
+    "total_score": 1360000,
+    "platform_ranks": {
+      "douyin": 14
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "机魂不悦!我被电脑压力了",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 14,
+    "hotindex": 0,
+    "estimated_hot": 1360000,
+    "total_score": 1360000,
+    "platform_ranks": {
+      "tieba": 14
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "虞书欣花苞公主",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 15,
+    "hotindex": 0,
+    "estimated_hot": 1350000,
+    "total_score": 1350000,
+    "platform_ranks": {
+      "weibo": 15
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "为什么最近潮汕文学被重新看见？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 15,
+    "hotindex": 0,
+    "estimated_hot": 1350000,
+    "total_score": 1350000,
+    "platform_ranks": {
+      "zhihu": 15
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "足球小将集体发声",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 15,
+    "hotindex": 0,
+    "estimated_hot": 1350000,
+    "total_score": 1350000,
+    "platform_ranks": {
+      "douyin": 15
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "本届世界杯，谁以绝对核心身份带队夺冠对历史地位提升最显著？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "zhihu": 16
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "2026美加墨世界杯申请出战",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "douyin": 16
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "巴别塔建成,霓虹人沦为笑柄",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 16,
+    "hotindex": 0,
+    "estimated_hot": 1340000,
+    "total_score": 1340000,
+    "platform_ranks": {
+      "tieba": 16
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "陈学冬12部主演作品11部无法上线",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 0,
+    "estimated_hot": 1330000,
+    "total_score": 1330000,
+    "platform_ranks": {
+      "weibo": 17
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "Token 带来的智能化，能对冲我们人口红利消失的难题吗？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 0,
+    "estimated_hot": 1330000,
+    "total_score": 1330000,
+    "platform_ranks": {
+      "zhihu": 17
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "丁程鑫选BGM能响就能跳",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 0,
+    "estimated_hot": 1330000,
+    "total_score": 1330000,
+    "platform_ranks": {
+      "douyin": 17
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "一眼假!造谣山姆偷吃者被拘",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 0,
+    "estimated_hot": 1330000,
+    "total_score": 1330000,
+    "platform_ranks": {
+      "tieba": 17
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "小的是多大的 小的是我",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "weibo": 18
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "天涯前员工：一味重启消耗用户情怀",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "baidu": 18
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "济南 2025 人口增量北方第一，全国第五，为什么？该地有什么吸引企业、人才的优势吗？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "zhihu": 18
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "李昊炎走向拉玛西亚的每一步",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "douyin": 18
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "美股科技股最大买家开始犹豫了",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 18,
+    "hotindex": 0,
+    "estimated_hot": 1320000,
+    "total_score": 1320000,
+    "platform_ranks": {
+      "toutiao": 18
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "宋亚轩一把抱住刘耀文",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 0,
+    "estimated_hot": 1310000,
+    "total_score": 1310000,
+    "platform_ranks": {
+      "weibo": 19
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "纯论身体天赋，NBA 历史前五是否是文班亚马、乔丹、詹姆斯、奥尼尔、科比这五位？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 0,
+    "estimated_hot": 1310000,
+    "total_score": 1310000,
+    "platform_ranks": {
+      "zhihu": 19
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "体育",
+    "reject": false
+  },
+  {
+    "title": "中国足球小将夺冠之路",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 0,
+    "estimated_hot": 1310000,
+    "total_score": 1310000,
+    "platform_ranks": {
+      "douyin": 19
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "体育",
+    "reject": false
+  },
+  {
+    "title": "职业模特集体杀进COS圈",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 19,
+    "hotindex": 0,
+    "estimated_hot": 1310000,
+    "total_score": 1310000,
+    "platform_ranks": {
+      "tieba": 19
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "KPL票价",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 0,
+    "estimated_hot": 1300000,
+    "total_score": 1300000,
+    "platform_ranks": {
+      "weibo": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "A股收评：创业板指放量跌超3%",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 0,
+    "estimated_hot": 1300000,
+    "total_score": 1300000,
+    "platform_ranks": {
+      "baidu": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "财经",
+    "reject": false
+  },
+  {
+    "title": "你对潮汕文学中的女性角色有什么印象？",
+    "sources": [
+      "zhihu"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 0,
+    "estimated_hot": 1300000,
+    "total_score": 1300000,
+    "platform_ranks": {
+      "zhihu": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.2,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "第一视角感受天猴散花",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 0,
+    "estimated_hot": 1300000,
+    "total_score": 1300000,
+    "platform_ranks": {
+      "douyin": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "太失望!吧友狠批新武侠低俗",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 20,
+    "hotindex": 0,
+    "estimated_hot": 1300000,
+    "total_score": 1300000,
+    "platform_ranks": {
+      "tieba": 20
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "李晨曾送了好多艺人水晶兔子",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 21,
+    "hotindex": 0,
+    "estimated_hot": 1290000,
+    "total_score": 1290000,
+    "platform_ranks": {
+      "weibo": 21
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "娱乐",
+    "reject": false
+  },
+  {
+    "title": "高考试卷押送车队震撼瞬间",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 21,
+    "hotindex": 0,
+    "estimated_hot": 1290000,
+    "total_score": 1290000,
+    "platform_ranks": {
+      "baidu": 21
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "热身赛法国1:2科特迪瓦",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 21,
+    "hotindex": 0,
+    "estimated_hot": 1290000,
+    "total_score": 1290000,
+    "platform_ranks": {
+      "douyin": 21
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "回归无望,369坦言不想玩lol",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 21,
+    "hotindex": 0,
+    "estimated_hot": 1290000,
+    "total_score": 1290000,
+    "platform_ranks": {
+      "tieba": 21
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "陈丽君十里桃花待嫁的年华转场",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 22,
+    "hotindex": 0,
+    "estimated_hot": 1280000,
+    "total_score": 1280000,
+    "platform_ranks": {
+      "douyin": 22
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "知名up主番鼠鉴赏家道歉",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 22,
+    "hotindex": 0,
+    "estimated_hot": 1280000,
+    "total_score": 1280000,
+    "platform_ranks": {
+      "tieba": 22
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "如果减重变容易",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 0,
+    "estimated_hot": 1270000,
+    "total_score": 1270000,
+    "platform_ranks": {
+      "weibo": 23
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "新疆小孩在游客临走前硬塞小羊",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 0,
+    "estimated_hot": 1270000,
+    "total_score": 1270000,
+    "platform_ranks": {
+      "baidu": 23
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "如果考试就像去饭店",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 0,
+    "estimated_hot": 1270000,
+    "total_score": 1270000,
+    "platform_ranks": {
+      "douyin": 23
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "职业哥力挺GO学姐:她没开挂",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 0,
+    "estimated_hot": 1270000,
+    "total_score": 1270000,
+    "platform_ranks": {
+      "tieba": 23
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "杨洋不让江山杀青",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 24,
+    "hotindex": 0,
+    "estimated_hot": 1260000,
+    "total_score": 1260000,
+    "platform_ranks": {
+      "weibo": 24
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "第一次算清楚人类对它的依赖有多深",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 24,
+    "hotindex": 0,
+    "estimated_hot": 1260000,
+    "total_score": 1260000,
+    "platform_ranks": {
+      "baidu": 24
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "逆天碰瓷!山寨黑神话登陆ns2",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 24,
+    "hotindex": 0,
+    "estimated_hot": 1260000,
+    "total_score": 1260000,
+    "platform_ranks": {
+      "tieba": 24
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "哈工大向基础研究发起冲锋",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 27,
+    "hotindex": 1256161,
+    "estimated_hot": 0,
+    "total_score": 1256161,
+    "platform_ranks": {
+      "toutiao": 27
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "家业 华莱士",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 25,
+    "hotindex": 0,
+    "estimated_hot": 1250000,
+    "total_score": 1250000,
+    "platform_ranks": {
+      "weibo": 25
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "曾沛慈发文致歉",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 25,
+    "hotindex": 0,
+    "estimated_hot": 1250000,
+    "total_score": 1250000,
+    "platform_ranks": {
+      "douyin": 25
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "Bin黑脸拒绝粉丝击掌",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 25,
+    "hotindex": 0,
+    "estimated_hot": 1250000,
+    "total_score": 1250000,
+    "platform_ranks": {
+      "tieba": 25
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "最灿烂不一定要许多钻石黄金",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 26,
+    "hotindex": 0,
+    "estimated_hot": 1240000,
+    "total_score": 1240000,
+    "platform_ranks": {
+      "douyin": 26
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "惊艳!盘点漫画史上最强跨页",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 26,
+    "hotindex": 0,
+    "estimated_hot": 1240000,
+    "total_score": 1240000,
+    "platform_ranks": {
+      "tieba": 26
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "原来催吐是这样的",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 27,
+    "hotindex": 0,
+    "estimated_hot": 1230000,
+    "total_score": 1230000,
+    "platform_ranks": {
+      "weibo": 27
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "社保卡到期不换？这一功能将无法使用",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 27,
+    "hotindex": 0,
+    "estimated_hot": 1230000,
+    "total_score": 1230000,
+    "platform_ranks": {
+      "baidu": 27
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "郭靖宇想给灵摆十年加更",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 27,
+    "hotindex": 0,
+    "estimated_hot": 1230000,
+    "total_score": 1230000,
+    "platform_ranks": {
+      "douyin": 27
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "RE0作者:486会爱上阿库娅",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 27,
+    "hotindex": 0,
+    "estimated_hot": 1230000,
+    "total_score": 1230000,
+    "platform_ranks": {
+      "tieba": 27
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "黑龙江挪车反杀案二审维持死缓",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "weibo": 28
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "翘楚是一个巨大的果宝特攻",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "douyin": 28
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "新规落地,杭州白天禁遛狗",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "tieba": 28
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "存款达到多少可以提前退休",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 29,
+    "hotindex": 0,
+    "estimated_hot": 1210000,
+    "total_score": 1210000,
+    "platform_ranks": {
+      "weibo": 29
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "车主开迈巴赫上班失控撞墙",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 29,
+    "hotindex": 0,
+    "estimated_hot": 1210000,
+    "total_score": 1210000,
+    "platform_ranks": {
+      "baidu": 29
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "小鬼姚晓棠合唱迷人的危险",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 29,
+    "hotindex": 0,
+    "estimated_hot": 1210000,
+    "total_score": 1210000,
+    "platform_ranks": {
+      "douyin": 29
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "湖北近300名农机手组队一路向北麦收",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 29,
+    "hotindex": 0,
+    "estimated_hot": 1210000,
+    "total_score": 1210000,
+    "platform_ranks": {
+      "toutiao": 29
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "方言版我想喝饮料就喝饮料",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 30,
+    "hotindex": 0,
+    "estimated_hot": 1200000,
+    "total_score": 1200000,
+    "platform_ranks": {
+      "douyin": 30
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "AI脸泛滥成灾,建模师没活了",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 30,
+    "hotindex": 0,
+    "estimated_hot": 1200000,
+    "total_score": 1200000,
+    "platform_ranks": {
+      "tieba": 30
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "赖岳谦批菲律宾忘恩负义",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 30,
+    "hotindex": 0,
+    "estimated_hot": 1200000,
+    "total_score": 1200000,
+    "platform_ranks": {
+      "toutiao": 30
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "鲁豫脑袋大 梅婷是花瓶 郎朗效果差",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 31,
+    "hotindex": 0,
+    "estimated_hot": 1190000,
+    "total_score": 1190000,
+    "platform_ranks": {
+      "weibo": 31
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "年内最大罚单！又一支付机构被重罚",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 31,
+    "hotindex": 0,
+    "estimated_hot": 1190000,
+    "total_score": 1190000,
+    "platform_ranks": {
+      "baidu": 31
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "我好像有那个饿怒症",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 31,
+    "hotindex": 0,
+    "estimated_hot": 1190000,
+    "total_score": 1190000,
+    "platform_ranks": {
+      "douyin": 31
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "租房的三件套",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 32,
+    "hotindex": 0,
+    "estimated_hot": 1180000,
+    "total_score": 1180000,
+    "platform_ranks": {
+      "weibo": 32
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "中学生篡改同学志愿 被拘5日不予执行",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 32,
+    "hotindex": 0,
+    "estimated_hot": 1180000,
+    "total_score": 1180000,
+    "platform_ranks": {
+      "baidu": 32
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "方言版为晚霞驻足也太好笑了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 32,
+    "hotindex": 0,
+    "estimated_hot": 1180000,
+    "total_score": 1180000,
+    "platform_ranks": {
+      "douyin": 32
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "一馒落三馒生",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 33,
+    "hotindex": 0,
+    "estimated_hot": 1170000,
+    "total_score": 1170000,
+    "platform_ranks": {
+      "weibo": 33
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女生请黑天鹅帮忙 竟“沟通”成功",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 33,
+    "hotindex": 0,
+    "estimated_hot": 1170000,
+    "total_score": 1170000,
+    "platform_ranks": {
+      "baidu": 33
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "台球界来了个C罗",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 33,
+    "hotindex": 0,
+    "estimated_hot": 1170000,
+    "total_score": 1170000,
+    "platform_ranks": {
+      "douyin": 33
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "沈月李嘉琦重庆落地签",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 34,
+    "hotindex": 0,
+    "estimated_hot": 1160000,
+    "total_score": 1160000,
+    "platform_ranks": {
+      "weibo": 34
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "未成年女孩遭直播公司“围猎”",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 34,
+    "hotindex": 0,
+    "estimated_hot": 1160000,
+    "total_score": 1160000,
+    "platform_ranks": {
+      "baidu": 34
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "演绎我的变脸速度",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 34,
+    "hotindex": 0,
+    "estimated_hot": 1160000,
+    "total_score": 1160000,
+    "platform_ranks": {
+      "douyin": 34
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "何猷君曾说大学就想娶奚梦瑶",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 35,
+    "hotindex": 0,
+    "estimated_hot": 1150000,
+    "total_score": 1150000,
+    "platform_ranks": {
+      "weibo": 35
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "和平精英上分手册",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 35,
+    "hotindex": 0,
+    "estimated_hot": 1150000,
+    "total_score": 1150000,
+    "platform_ranks": {
+      "douyin": 35
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "果然出来吃火锅还是得戴眼镜",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 36,
+    "hotindex": 0,
+    "estimated_hot": 1140000,
+    "total_score": 1140000,
+    "platform_ranks": {
+      "weibo": 36
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "追觅CEO俞浩微博被禁言",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 36,
+    "hotindex": 0,
+    "estimated_hot": 1140000,
+    "total_score": 1140000,
+    "platform_ranks": {
+      "baidu": 36
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "问你到底爱我有几分",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 36,
+    "hotindex": 0,
+    "estimated_hot": 1140000,
+    "total_score": 1140000,
+    "platform_ranks": {
+      "douyin": 36
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "刘诗诗干练小黑裙",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 37,
+    "hotindex": 0,
+    "estimated_hot": 1130000,
+    "total_score": 1130000,
+    "platform_ranks": {
+      "weibo": 37
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "电商高仿大牌乱象：搜正品被频推假货",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 37,
+    "hotindex": 0,
+    "estimated_hot": 1130000,
+    "total_score": 1130000,
+    "platform_ranks": {
+      "baidu": 37
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "世界杯各球队进城办事穿搭",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 37,
+    "hotindex": 0,
+    "estimated_hot": 1130000,
+    "total_score": 1130000,
+    "platform_ranks": {
+      "douyin": 37
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女子当街踩踏男子头部应有通报",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 38,
+    "hotindex": 0,
+    "estimated_hot": 1120000,
+    "total_score": 1120000,
+    "platform_ranks": {
+      "weibo": 38
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "天津油边烧烤真把我馋哭了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 38,
+    "hotindex": 0,
+    "estimated_hot": 1120000,
+    "total_score": 1120000,
+    "platform_ranks": {
+      "douyin": 38
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "iPhone18ProMax配色",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 39,
+    "hotindex": 0,
+    "estimated_hot": 1110000,
+    "total_score": 1110000,
+    "platform_ranks": {
+      "weibo": 39
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "伊犁天马浴河现场太震撼了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 39,
+    "hotindex": 0,
+    "estimated_hot": 1110000,
+    "total_score": 1110000,
+    "platform_ranks": {
+      "douyin": 39
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "转账13余万后“女友”失联 男子报警",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 40,
+    "hotindex": 0,
+    "estimated_hot": 1100000,
+    "total_score": 1100000,
+    "platform_ranks": {
+      "baidu": 40
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "广州汽水音乐节毕业季全阵容官宣",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 40,
+    "hotindex": 0,
+    "estimated_hot": 1100000,
+    "total_score": 1100000,
+    "platform_ranks": {
+      "douyin": 40
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "朵朵说小酒窝是小仙女",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 41,
+    "hotindex": 0,
+    "estimated_hot": 1090000,
+    "total_score": 1090000,
+    "platform_ranks": {
+      "weibo": 41
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "日本八成议员向高市纳“投名状”",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 41,
+    "hotindex": 0,
+    "estimated_hot": 1090000,
+    "total_score": 1090000,
+    "platform_ranks": {
+      "baidu": 41
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "翘楚长公主一呼百应",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 41,
+    "hotindex": 0,
+    "estimated_hot": 1090000,
+    "total_score": 1090000,
+    "platform_ranks": {
+      "douyin": 41
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "这份水煮牛肉辣度夯爆了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 42,
+    "hotindex": 0,
+    "estimated_hot": 1080000,
+    "total_score": 1080000,
+    "platform_ranks": {
+      "douyin": 42
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "麦收突遇冰雹降雨如何应对",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 42,
+    "hotindex": 0,
+    "estimated_hot": 1080000,
+    "total_score": 1080000,
+    "platform_ranks": {
+      "toutiao": 42
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "韩国芯片巨头全线崩盘",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 43,
+    "hotindex": 0,
+    "estimated_hot": 1070000,
+    "total_score": 1070000,
+    "platform_ranks": {
+      "weibo": 43
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "高速收费员“暴铲”0.8吨泥",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 43,
+    "hotindex": 0,
+    "estimated_hot": 1070000,
+    "total_score": 1070000,
+    "platform_ranks": {
+      "baidu": 43
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "今日芒种",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 43,
+    "hotindex": 0,
+    "estimated_hot": 1070000,
+    "total_score": 1070000,
+    "platform_ranks": {
+      "douyin": 43
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "幸福是一碗巨无霸肘子盖饭",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 44,
+    "hotindex": 0,
+    "estimated_hot": 1060000,
+    "total_score": 1060000,
+    "platform_ranks": {
+      "douyin": 44
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "张凌赫转账最快的男人",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 45,
+    "hotindex": 0,
+    "estimated_hot": 1050000,
+    "total_score": 1050000,
+    "platform_ranks": {
+      "weibo": 45
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考心慌睡不着怎么办 医生支招",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 45,
+    "hotindex": 0,
+    "estimated_hot": 1050000,
+    "total_score": 1050000,
+    "platform_ranks": {
+      "baidu": 45
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "夏日微胖女装测评",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 45,
+    "hotindex": 0,
+    "estimated_hot": 1050000,
+    "total_score": 1050000,
+    "platform_ranks": {
+      "douyin": 45
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女子婚前立遗嘱让母亲继承个人财产",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 45,
+    "hotindex": 0,
+    "estimated_hot": 1050000,
+    "total_score": 1050000,
+    "platform_ranks": {
+      "toutiao": 45
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "VOGUE出图",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 46,
+    "hotindex": 0,
+    "estimated_hot": 1040000,
+    "total_score": 1040000,
+    "platform_ranks": {
+      "weibo": 46
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "首张无目的地海上游出入境通行证签发",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 46,
+    "hotindex": 0,
+    "estimated_hot": 1040000,
+    "total_score": 1040000,
+    "platform_ranks": {
+      "baidu": 46
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "我的进城办事专T来了",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 46,
+    "hotindex": 0,
+    "estimated_hot": 1040000,
+    "total_score": 1040000,
+    "platform_ranks": {
+      "douyin": 46
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "vivo镜头下的青春闪闪发光",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 47,
+    "hotindex": 0,
+    "estimated_hot": 1030000,
+    "total_score": 1030000,
+    "platform_ranks": {
+      "weibo": 47
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "化州牛腩粉戳中了我的吃货心",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 47,
+    "hotindex": 0,
+    "estimated_hot": 1030000,
+    "total_score": 1030000,
+    "platform_ranks": {
+      "douyin": 47
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "麦当劳头顶长包了",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 48,
+    "hotindex": 0,
+    "estimated_hot": 1020000,
+    "total_score": 1020000,
+    "platform_ranks": {
+      "weibo": 48
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "河北启动重大气象灾害Ⅲ级应急响应",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 48,
+    "hotindex": 0,
+    "estimated_hot": 1020000,
+    "total_score": 1020000,
+    "platform_ranks": {
+      "baidu": 48
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "性价比拉满的健身look",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 48,
+    "hotindex": 0,
+    "estimated_hot": 1020000,
+    "total_score": 1020000,
+    "platform_ranks": {
+      "douyin": 48
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "C罗詹姆斯爆笑互让球王",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 49,
+    "hotindex": 0,
+    "estimated_hot": 1010000,
+    "total_score": 1010000,
+    "platform_ranks": {
+      "weibo": 49
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "陈都灵王瑞昌智斗拉扯",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 49,
+    "hotindex": 0,
+    "estimated_hot": 1010000,
+    "total_score": 1010000,
+    "platform_ranks": {
+      "douyin": 49
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "卢伟谈洛夫顿的伤势恢复情况",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 49,
+    "hotindex": 0,
+    "estimated_hot": 1010000,
+    "total_score": 1010000,
+    "platform_ranks": {
+      "toutiao": 49
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "刘浩存粉色旗袍剧照",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 50,
+    "hotindex": 0,
+    "estimated_hot": 1000000,
+    "total_score": 1000000,
+    "platform_ranks": {
+      "weibo": 50
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考前夕班主任下发被“封存”手机",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 50,
+    "hotindex": 0,
+    "estimated_hot": 1000000,
+    "total_score": 1000000,
+    "platform_ranks": {
+      "baidu": 50
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "坐洛阳三轮车情绪价值拉满",
+    "sources": [
+      "douyin"
+    ],
+    "source_count": 1,
+    "best_rank": 50,
+    "hotindex": 0,
+    "estimated_hot": 1000000,
+    "total_score": 1000000,
+    "platform_ranks": {
+      "douyin": 50
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "985舰为高考生送祝福",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 34,
+    "hotindex": 930587,
+    "estimated_hot": 0,
+    "total_score": 930587,
+    "platform_ranks": {
+      "toutiao": 34
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "观望的购房者开始“能买就买了”",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 50,
+    "hotindex": 761900,
+    "estimated_hot": 0,
+    "total_score": 761900,
+    "platform_ranks": {
+      "toutiao": 50
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "下半年猪价要变天吗",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 26,
+    "hotindex": 689396,
+    "estimated_hot": 0,
+    "total_score": 689396,
+    "platform_ranks": {
+      "toutiao": 26
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "高考试卷押送车队警车护航卫星追踪",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 39,
+    "hotindex": 623791,
+    "estimated_hot": 0,
+    "total_score": 623791,
+    "platform_ranks": {
+      "toutiao": 39
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "王媛媛复盘世联赛首胜",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 24,
+    "hotindex": 564429,
+    "estimated_hot": 0,
+    "total_score": 564429,
+    "platform_ranks": {
+      "toutiao": 24
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "为何说中石化应该感激比亚迪",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 21,
+    "hotindex": 510717,
+    "estimated_hot": 0,
+    "total_score": 510717,
+    "platform_ranks": {
+      "toutiao": 21
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "布伦森末节砍13分主宰比赛",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 33,
+    "hotindex": 418139,
+    "estimated_hot": 0,
+    "total_score": 418139,
+    "platform_ranks": {
+      "toutiao": 33
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "刘鹏程任陕西华阴市代市长",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 44,
+    "hotindex": 378348,
+    "estimated_hot": 0,
+    "total_score": 378348,
+    "platform_ranks": {
+      "toutiao": 44
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "农资店主自费给收割机手送饭",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 32,
+    "hotindex": 342344,
+    "estimated_hot": 0,
+    "total_score": 342344,
+    "platform_ranks": {
+      "toutiao": 32
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "美国众议院通过援乌法案施压俄罗斯",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 41,
+    "hotindex": 280287,
+    "estimated_hot": 0,
+    "total_score": 280287,
+    "platform_ranks": {
+      "toutiao": 41
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "郑州为疣鼻天鹅顺利孵化温柔“让路”",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 36,
+    "hotindex": 253614,
+    "estimated_hot": 0,
+    "total_score": 253614,
+    "platform_ranks": {
+      "toutiao": 36
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "泽连斯基要求乌官员一周内搞定采购",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 37,
+    "hotindex": 229480,
+    "estimated_hot": 0,
+    "total_score": 229480,
+    "platform_ranks": {
+      "toutiao": 37
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "杭州两个月抓蛇近900起",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 46,
+    "hotindex": 207642,
+    "estimated_hot": 0,
+    "total_score": 207642,
+    "platform_ranks": {
+      "toutiao": 46
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "武磊将迎国家队生涯百场里程碑",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 43,
+    "hotindex": 187882,
+    "estimated_hot": 0,
+    "total_score": 187882,
+    "platform_ranks": {
+      "toutiao": 43
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "分析师：AI科技第一个顶部还未到来",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 47,
+    "hotindex": 153825,
+    "estimated_hot": 0,
+    "total_score": 153825,
+    "platform_ranks": {
+      "toutiao": 47
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "燃油车价格大幅跳水",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 139186,
+    "estimated_hot": 0,
+    "total_score": 139186,
+    "platform_ranks": {
+      "toutiao": 23
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "普京：俄方愿在美国安克雷奇与乌谈判",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 48,
+    "hotindex": 113956,
+    "estimated_hot": 0,
+    "total_score": 113956,
+    "platform_ranks": {
+      "toutiao": 48
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "男子在国道遇毛驴独自拉车",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 38,
+    "hotindex": 103112,
+    "estimated_hot": 0,
+    "total_score": 103112,
+    "platform_ranks": {
+      "toutiao": 38
+    },
+    "click_score": 0,
+    "click_detail": {
+      "conflict": 0,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 0,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  }
+]

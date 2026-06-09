@@ -1,0 +1,101 @@
+# HTTP 请求和图片搜索配置
+
+# --- 通用 User-Agent ---
+user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# --- 默认超时（秒） ---
+default_timeout: 15
+
+# --- 图片搜索超时（秒） ---
+image_timeout: 10
+
+# --- 新闻页面提取超时（秒） ---
+article_timeout: 20
+
+# --- 图片最小分辨率 ---
+min_image_width: 800
+min_image_height: 600
+
+# --- 图片搜索每次多搜倍数（为相关性过滤留余量） ---
+fetch_multiplier: 4
+
+# --- 百度图片搜索 ---
+baidu_image:
+  url: "https://image.baidu.com/search/acjson"
+  referer: "https://image.baidu.com/"
+  params:
+    tn: "resultjson_com"
+    ipn: "rj"
+    ct: 201326592
+    hd: 1
+    latest: 1
+    width: 1024
+    height: 768
+
+# --- 必应图片搜索 ---
+bing_image:
+  url: "https://www.bing.com/images/async"
+  referer: "https://www.bing.com/images/"
+
+# --- 图片 URL 跳过关键词 ---
+skip_keywords:
+  - "icon"
+  - "logo"
+  - "avatar"
+  - "emoji"
+  - "1x1"
+  - "pixel"
+  - "qr_code"
+  - "favicon"
+  - "w85h85"
+  - "w50h50"
+  - "w32h32"
+  - "w16h16"
+
+# --- 停用词（图片相关性关键词提取时过滤） ---
+stop_words:
+  - "的"
+  - "了"
+  - "在"
+  - "是"
+  - "我"
+  - "有"
+  - "和"
+  - "就"
+  - "不"
+  - "人"
+  - "都"
+  - "一"
+  - "他"
+  - "这"
+  - "中"
+  - "大"
+  - "来"
+  - "上"
+  - "国"
+  - "个"
+  - "到"
+  - "说"
+  - "们"
+  - "为"
+  - "子"
+  - "你"
+  - "地"
+  - "一个"
+  - "没有"
+  - "什么"
+  - "自己"
+  - "被"
+  - "把"
+  - "但"
+  - "新"
+  - "也"
+  - "与"
+  - "及"
+  - "等"
+  - "或"
+  - "从"
+  - "已"
+  - "将"
+  - "对"
+  - "以"

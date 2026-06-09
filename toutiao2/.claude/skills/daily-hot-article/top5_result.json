@@ -1,0 +1,136 @@
+[
+  {
+    "title": "张慧雯哭着回应被淘汰",
+    "sources": [
+      "baidu",
+      "douyin"
+    ],
+    "source_count": 2,
+    "best_rank": 15,
+    "hotindex": 0,
+    "estimated_hot": 1850000,
+    "total_score": 1850000,
+    "platform_ranks": {
+      "baidu": 39,
+      "douyin": 15
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 0.9,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "胜宏科技回应涉高管传闻",
+    "sources": [
+      "toutiao",
+      "weibo"
+    ],
+    "source_count": 2,
+    "best_rank": 44,
+    "hotindex": 179367,
+    "estimated_hot": 0,
+    "total_score": 179367,
+    "platform_ranks": {
+      "weibo": 49,
+      "toutiao": 44
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.05,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "朱珠法网曝光vivo新折叠",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 24,
+    "hotindex": 0,
+    "estimated_hot": 1260000,
+    "total_score": 1260000,
+    "platform_ranks": {
+      "weibo": 24
+    },
+    "click_score": 23,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 8,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "苹果WWDC26参会礼品曝光",
+    "sources": [
+      "weibo"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "weibo": 28
+    },
+    "click_score": 23,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 8,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.1,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "山西运城回应空气中现刺鼻性气味",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 32,
+    "hotindex": 1464747,
+    "estimated_hot": 0,
+    "total_score": 1464747,
+    "platform_ranks": {
+      "toutiao": 32
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  }
+]

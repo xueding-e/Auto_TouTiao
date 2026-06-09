@@ -1,0 +1,129 @@
+[
+  {
+    "title": "店铺回应顾客米粥中吃出连环刀片",
+    "sources": [
+      "baidu",
+      "toutiao"
+    ],
+    "source_count": 2,
+    "best_rank": 28,
+    "hotindex": 842030,
+    "estimated_hot": 0,
+    "total_score": 842030,
+    "platform_ranks": {
+      "baidu": 30,
+      "toutiao": 28
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "普京回应“经济崩溃论”",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 17,
+    "hotindex": 1695641,
+    "estimated_hot": 0,
+    "total_score": 1695641,
+    "platform_ranks": {
+      "toutiao": 17
+    },
+    "click_score": 28,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 8,
+      "relevance": 0,
+      "extend": 10,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "重庆动物园用活兔活鸡喂蛇引争议",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 28,
+    "hotindex": 0,
+    "estimated_hot": 1220000,
+    "total_score": 1220000,
+    "platform_ranks": {
+      "baidu": 28
+    },
+    "click_score": 25,
+    "click_detail": {
+      "conflict": 20,
+      "emotion": 0,
+      "relevance": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "女讲师被要求50岁退休 起诉学校败诉",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 40,
+    "hotindex": 1136622,
+    "estimated_hot": 0,
+    "total_score": 1136622,
+    "platform_ranks": {
+      "toutiao": 40
+    },
+    "click_score": 25,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 8,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "社会",
+    "reject": false
+  },
+  {
+    "title": "官方回应教练的孩子进集训队",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 11,
+    "hotindex": 4170604,
+    "estimated_hot": 0,
+    "total_score": 4170604,
+    "platform_ranks": {
+      "toutiao": 11
+    },
+    "click_score": 22,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 7,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "社会",
+    "reject": false
+  }
+]

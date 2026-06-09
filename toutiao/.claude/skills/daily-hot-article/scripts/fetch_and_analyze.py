@@ -71,16 +71,26 @@ REJECT_KW = [
 ]
 
 import platform
+import shutil
 
-# newsnow CLI 路径，npm 全局安装后通过 node 直接调用
-_NPM_GLOBAL = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', 'npm', 'node_modules', 'newsnow', 'dist', 'src', 'cli.js')
-if not os.path.exists(_NPM_GLOBAL):
+# newsnow CLI 路径检测（macOS/Linux 优先通过 PATH 查找）
+def _find_newsnow():
+    # 先尝试通过 PATH 查找
+    path = shutil.which('newsnow')
+    if path:
+        return path
+    # Windows fallback
+    _NPM_GLOBAL = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', 'npm', 'node_modules', 'newsnow', 'dist', 'src', 'cli.js')
+    if os.path.exists(_NPM_GLOBAL):
+        return _NPM_GLOBAL
     # nvm 路径
     import glob as _glob
     _candidates = _glob.glob(r'C:\nvm*\nodejs\node_modules\newsnow\dist\src\cli.js')
-    _NPM_GLOBAL = _candidates[0] if _candidates else None
+    if _candidates:
+        return _candidates[0]
+    return None
 
-NEWSNOW_CLI_PATH = _NPM_GLOBAL
+NEWSNOW_CLI_PATH = _find_newsnow()
 
 
 def run_newsnow(source):
@@ -89,11 +99,13 @@ def run_newsnow(source):
         print(f'[WARN] newsnow CLI not found, skipping {source}')
         return None
     try:
-        result = subprocess.run(
-            ['node', NEWSNOW_CLI_PATH, source, '--json', '--pretty'],
-            capture_output=True,
-            timeout=30,
-        )
+        # 如果是直接可执行文件（如 bun 脚本），直接运行
+        # 否则通过 node 运行（如 .js 文件）
+        if NEWSNOW_CLI_PATH.endswith('.js'):
+            cmd = ['node', NEWSNOW_CLI_PATH, source, '--json', '--pretty']
+        else:
+            cmd = [NEWSNOW_CLI_PATH, source, '--json', '--pretty']
+        result = subprocess.run(cmd, capture_output=True, timeout=30)
         if result.returncode != 0:
             print(f'[WARN] {source} newsnow stderr: {result.stderr.decode("utf-8", errors="ignore")[:200]}')
             return None

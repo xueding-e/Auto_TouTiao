@@ -9,7 +9,13 @@
       "mcp__chrome-devtools__click",
       "mcp__chrome-devtools__take_snapshot",
       "Bash(pip install *)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(newsnow weibo *)",
+      "mcp__chrome-devtools__new_page",
+      "Bash(mount)",
+      "Read(//F/**)",
+      "Read(//Users/wangc/**)",
+      "Bash(ls -d /article/)"
     ]
   }
 }

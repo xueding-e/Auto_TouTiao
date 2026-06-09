@@ -1,0 +1,107 @@
+uid=1_0 RootWebArea "头条号" url="https://mp.toutiao.com/profile_v4/graphic/publish?from=toutiao_pc"
+  uid=1_1 StaticText "头条号发文规范"
+  uid=1_2 link "消息" url="https://mp.toutiao.com/profile_v4/personal/message"
+    uid=1_3 StaticText "消息"
+  uid=1_4 generic
+    uid=1_5 link "化鱼的鲲的个人主页" url="https://www.toutiao.com/c/user/111070684991/"
+  uid=1_6 main
+    uid=1_7 image
+    uid=1_8 generic
+      uid=1_9 StaticText "发布"
+      uid=1_10 StaticText "文章"
+    uid=1_11 button
+    uid=1_12 button
+    uid=1_13 button
+    uid=1_14 button
+    uid=1_15 button
+    uid=1_16 button
+    uid=1_17 button
+    uid=1_18 button
+      uid=1_19 generic
+    uid=1_20 button
+    uid=1_21 button
+    uid=1_22 button
+    uid=1_23 button
+    uid=1_24 button
+    uid=1_25 button
+      uid=1_26 generic
+    uid=1_27 button
+    uid=1_28 button
+      uid=1_29 image
+    uid=1_30 button
+    uid=1_31 textbox "请输入文章标题（2～30个字）" focusable focused multiline value="55万欧元买了个鼠标，利前CEO说把车标摘了吧"
+    uid=2_0 StaticText "21"
+    uid=2_1 StaticText " / 30"
+    uid=1_35 generic value="请输入正文
+
+"
+      uid=1_36 paragraph
+        uid=1_37 StaticText "请输入正文"
+        uid=1_38 LineBreak "
+"
+    uid=1_39 StaticText "*"
+    uid=1_40 StaticText "展示封面"
+    uid=1_41 StaticText "单图"
+    uid=1_42 StaticText "三图"
+    uid=1_43 StaticText "无封面"
+    uid=1_44 StaticText "预览"
+    uid=1_45 StaticText "优质的封面有利于推荐，格式支持JPEG、PNG"
+    uid=1_46 generic
+      uid=1_47 StaticText "添加位置"
+    uid=1_48 generic
+      uid=1_49 StaticText "标记城市，让更多同城用户看到"
+    uid=1_39 StaticText "*"
+    uid=1_50 StaticText "投放广告"
+    uid=1_51 LabelText
+      uid=1_52 StaticText "投放广告赚收益"
+    uid=1_53 image
+    uid=1_54 LabelText
+      uid=1_55 StaticText "不投放广告"
+    uid=1_56 StaticText "声明首发"
+    uid=1_57 StaticText "头条首发"
+    uid=1_58 StaticText "符合首发质量标准且72小时内仅在头条发布的内容，可享额外激励分成"
+    uid=1_59 StaticText "  "
+    uid=1_60 link "详细了解" url="https://mp.toutiao.com/gf/exclusive"
+      uid=1_61 StaticText "详细了解"
+    uid=1_62 StaticText "合集"
+    uid=1_63 button "添加至合集"
+    uid=1_64 image
+    uid=1_65 StaticText "同时发布微头条"
+    uid=1_66 LabelText
+      uid=1_67 StaticText "发布得更多收益"
+    uid=1_68 image
+    uid=1_69 StaticText "作品声明"
+    uid=1_70 StaticText "取材网络"
+    uid=1_71 StaticText "引用站内"
+    uid=1_72 StaticText "个人观点，仅供参考"
+    uid=1_73 StaticText "引用AI"
+    uid=1_74 image
+    uid=1_75 StaticText "虚构演绎，故事经历"
+    uid=1_76 image
+    uid=1_77 StaticText "投资观点，仅供参考"
+    uid=1_78 StaticText "健康医疗分享，仅供参考"
+    uid=2_2 StaticText "草稿保存中..."
+    uid=1_81 StaticText "共 "
+    uid=1_82 StaticText "0"
+    uid=1_83 StaticText " 字"
+    uid=1_84 StaticText "发文设置"
+    uid=1_85 button "预览"
+    uid=1_86 button "定时发布"
+    uid=1_87 button "预览并发布"
+    uid=1_88 heading "头条创作助手" level="1"
+    uid=1_89 StaticText "AI 创作"
+    uid=1_90 generic
+      uid=1_91 StaticText "内容建议"
+    uid=1_92 StaticText "创作热点推荐"
+    uid=1_93 StaticText "换一换"
+    uid=1_94 StaticText "发一张去海边的照片"
+    uid=1_95 StaticText "怎么样才能戒掉网瘾强制戒除网瘾?"
+    uid=1_96 StaticText "为什么有那么多人喜欢吃榴莲?"
+    uid=1_97 StaticText "医保局加强监管对药店有何影响"
+    uid=1_98 StaticText "家长如何理解和处理孩子的网瘾?"
+    uid=1_99 textbox "输入创作主题、观点或大纲，AI 帮你写" multiline
+    uid=2_3 StaticText "暂无建议"
+    uid=1_102 StaticText "重新检测"
+    uid=1_103 StaticText "检测成功，"
+    uid=1_104 StaticText "暂无建议"
+  uid=1_105 link url="https://baike.toutiao.com/"

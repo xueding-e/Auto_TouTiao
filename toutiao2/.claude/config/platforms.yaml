@@ -1,0 +1,41 @@
+# 平台配置
+
+# --- 平台名称映射 ---
+platforms:
+  weibo: "微博热搜"
+  baidu: "百度热搜"
+  zhihu: "知乎热榜"
+  douyin: "抖音热点"
+  tieba: "贴吧热议"
+  toutiao: "头条热榜"
+
+# --- 各平台参考价值权重 ---
+# 知乎讨论型内容多利于观点文章，微博情绪浓度高利于犀利文风
+platform_weights:
+  zhihu: 1.2
+  weibo: 1.1
+  baidu: 1.0
+  toutiao: 1.0
+  douyin: 0.8
+  tieba: 0.8
+
+# --- newsnow CLI 搜索路径（glob 模式） ---
+# 按优先级排列，第一个匹配到的路径生效
+newsnow_search_patterns:
+  - "~/.nvm/versions/node/*/lib/node_modules/newsnow/dist/src/cli.js"
+  - "~/.local/state/fnm/node-versions/*/installation/lib/node_modules/newsnow/dist/src/cli.js"
+  - "~/.npm-global/lib/node_modules/newsnow/dist/src/cli.js"
+  - "~/.fnm/node-versions/*/installation/lib/node_modules/newsnow/dist/src/cli.js"
+  - "/usr/local/lib/node_modules/newsnow/dist/src/cli.js"
+  - "/usr/lib/node_modules/newsnow/dist/src/cli.js"
+
+# --- 输出目录 ---
+output_dir: "/Users/wangc/ClaudeWorkspace/toutiao2/output"
+
+# --- 输出文件名 ---
+output_filenames:
+  top5: "top5_result.json"
+  all_topics: "all_topics.json"
+
+# --- 头条号发布 URL ---
+publish_url: "https://mp.toutiao.com/profile_v4/graphic/publish?from=toutiao_pc"

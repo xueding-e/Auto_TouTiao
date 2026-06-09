@@ -1,0 +1,132 @@
+[
+  {
+    "title": "大学教授回应著作被质疑AI味太浓",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 48,
+    "hotindex": 0,
+    "estimated_hot": 1020000,
+    "total_score": 1020000,
+    "platform_ranks": {
+      "baidu": 48
+    },
+    "click_score": 25,
+    "click_detail": {
+      "conflict": 20,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "科技",
+    "reject": false
+  },
+  {
+    "title": "央视曝光小作坊用拖鞋边角料做牙刷",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 47,
+    "hotindex": 0,
+    "estimated_hot": 1030000,
+    "total_score": 1030000,
+    "platform_ranks": {
+      "baidu": 47
+    },
+    "click_score": 23,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 8,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "演员杨雪回应结婚原因",
+    "sources": [
+      "toutiao"
+    ],
+    "source_count": 1,
+    "best_rank": 23,
+    "hotindex": 1978500,
+    "estimated_hot": 0,
+    "total_score": 1978500,
+    "platform_ranks": {
+      "toutiao": 23
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "火车出发7小时后折返 12306回应",
+    "sources": [
+      "baidu"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "baidu": 5
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 1.0,
+    "category": "其他",
+    "reject": false
+  },
+  {
+    "title": "不如同人,女神4RE立绘翻车",
+    "sources": [
+      "tieba"
+    ],
+    "source_count": 1,
+    "best_rank": 5,
+    "hotindex": 0,
+    "estimated_hot": 1450000,
+    "total_score": 1450000,
+    "platform_ranks": {
+      "tieba": 5
+    },
+    "click_score": 15,
+    "click_detail": {
+      "conflict": 10,
+      "emotion": 0,
+      "relevance": 0,
+      "info_gap": 0,
+      "extend": 5,
+      "reject": false
+    },
+    "platform_weight": 0.8,
+    "category": "其他",
+    "reject": false
+  }
+]
