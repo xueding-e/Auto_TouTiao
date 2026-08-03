@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人员效能看板 - E2E 测试执行报告</title>
+<style>
+/* ===== Reset & Base ===== */
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans SC",sans-serif;background:#F1F5F9;color:#1E293B;line-height:1.6;-webkit-font-smoothing:antialiased}
+
+/* ===== Color Variables ===== */
+:root{
+  --primary:#3B82F6;--primary-light:#EFF6FF;--primary-dark:#1D4ED8;
+  --success:#10B981;--success-light:#ECFDF5;
+  --danger:#EF4444;--danger-light:#FEF2F2;
+  --warning:#F59E0B;--warning-light:#FFFBEB;
+  --neutral:#64748B;--neutral-light:#F8FAFC;
+  --info:#0EA5E9;--info-light:#F0F9FF;
+  --violet:#EC4899;--violet-light:#FDF2F8;
+}
+
+/* ===== Header ===== */
+.report-header{
+  background:linear-gradient(135deg,#2563EB 0%,#7C3AED 40%,#EC4899 100%);
+  color:#fff;padding:28px 36px;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:20px;
+  box-shadow:0 4px 24px rgba(37,99,235,.3);
+  position:relative;z-index:10;
+}
+.report-header::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;
+  height:3px;
+  background:linear-gradient(90deg,#F59E0B,#EC4899,#06B6D4);
+}
+.report-header h1{font-size:22px;font-weight:700;letter-spacing:.3px}
+.report-header .meta{font-size:13px;opacity:.82;margin-top:6px;font-weight:400}
+
+/* ===== Header Stats ===== */
+.header-stats{display:flex;gap:36px;flex-shrink:0}
+.header-stat{text-align:center}
+.header-stat .stat-num{font-size:32px;font-weight:800;line-height:1.1}
+.header-stat .stat-lbl{font-size:12px;opacity:.82;margin-top:4px;font-weight:400}
+
+/* ===== Layout ===== */
+.layout{display:flex;min-height:calc(100vh - 130px)}
+
+/* ===== Sidebar ===== */
+.sidebar{
+  width:232px;background:#fff;border-right:1px solid #E2E8F0;
+  padding:24px 0;position:sticky;top:0;
+  height:calc(100vh - 130px);overflow-y:auto;flex-shrink:0;
+  box-shadow:2px 0 12px rgba(0,0,0,.04);
+}
+.sidebar h3{font-size:11px;text-transform:uppercase;color:#94A3B8;padding:0 24px;margin-bottom:10px;letter-spacing:.8px;font-weight:700}
+.sidebar nav a{
+  display:block;padding:10px 24px;color:#475569;text-decoration:none;
+  font-size:14px;transition:all .2s ease;
+  border-left:3px solid transparent;margin:1px 0;
+}
+.sidebar nav a:hover{background:var(--primary-light);color:var(--primary)}
+.sidebar nav a.active{
+  background:var(--primary-light);color:var(--primary);
+  border-left-color:var(--primary);font-weight:600;
+}
+
+/* ===== Main Content ===== */
+.content{flex:1;padding:36px 40px;max-width:1160px;min-width:0}
+section{margin-bottom:52px;scroll-margin-top:24px}
+section>h2{
+  font-size:18px;color:#1E293B;font-weight:700;
+  padding-bottom:10px;margin-bottom:24px;
+  border-bottom:2px solid #DBEAFE;
+  display:flex;align-items:center;gap:10px;
+}
+section>h2::before{
+  content:'';display:inline-block;width:4px;height:20px;
+  background:var(--primary);border-radius:2px;
+}
+
+/* ===== Stat Cards ===== */
+.stat-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;margin-bottom:28px}
+.stat-card{
+  background:#fff;border-radius:10px;padding:22px 18px;text-align:center;
+  box-shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.03);
+  border-top:3px solid #E2E8F0;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.stat-card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.stat-card .num{font-size:32px;font-weight:800;line-height:1.1}
+.stat-card .lbl{font-size:13px;color:#64748B;margin-top:6px;font-weight:500}
+
+.stat-card.pass{border-top-color:var(--success)}.stat-card.pass .num{color:var(--success)}
+.stat-card.fail{border-top-color:var(--danger)}.stat-card.fail .num{color:var(--danger)}
+.stat-card.fail-visual{border-top-color:#FCA5A5}.stat-card.fail-visual .num{color:var(--danger)}
+.stat-card.fail-exec{border-top-color:#FCA5A5}.stat-card.fail-exec .num{color:var(--danger)}
+.stat-card.notrun{border-top-color:var(--neutral)}.stat-card.notrun .num{color:var(--neutral)}
+.stat-card.total{border-top-color:var(--primary)}.stat-card.total .num{color:var(--primary)}
+.stat-card.rate{border-top-color:var(--violet)}.stat-card.rate .num{color:var(--violet)}
+
+/* ===== Tables ===== */
+table{
+  width:100%;border-collapse:collapse;background:#fff;
+  border-radius:10px;overflow:hidden;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+  font-size:13px;
+}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid #F1F5F9}
+th{
+  background:#F8FAFC;font-weight:700;color:#475569;
+  position:sticky;top:0;font-size:12px;text-transform:uppercase;
+  letter-spacing:.3px;
+}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#F8FAFC}
+
+/* ===== Status Badges ===== */
+.badge{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:3px 12px;border-radius:20px;font-size:12px;
+  font-weight:600;white-space:nowrap;line-height:1.5;
+}
+.status-pass{background:var(--success-light);color:var(--success)}
+.status-fail{background:var(--danger-light);color:var(--danger)}
+.status-fail-visual{background:var(--danger-light);color:var(--danger)}
+.status-fail-exec{background:var(--danger-light);color:var(--danger)}
+.status-blocked{background:var(--warning-light);color:var(--warning)}
+.status-notrun{background:var(--neutral-light);color:var(--neutral)}
+.status-partial{background:var(--warning-light);color:var(--warning)}
+.sev-high{background:var(--danger-light);color:var(--danger)}
+.sev-medium{background:var(--warning-light);color:var(--warning)}
+.sev-low{background:var(--info-light);color:var(--info)}
+.badge-fail-type{font-size:11px;padding:2px 8px;border-radius:12px;margin-left:6px}
+
+/* ===== Case Panels (Accordion) ===== */
+.case-panel{
+  background:#fff;border-radius:10px;margin-bottom:12px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+  overflow:hidden;transition:box-shadow .15s ease;
+}
+.case-panel:hover{box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.case-panel.hidden{display:none}
+.case-header{
+  padding:14px 20px;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+  user-select:none;transition:background .2s ease;
+}
+.case-header:hover{background:#F8FAFC}
+.case-header .toggle-arrow{font-size:10px;color:#94A3B8;flex-shrink:0;transition:transform .2s ease;margin-right:8px}
+.case-panel.open .case-header .toggle-arrow{transform:rotate(90deg);color:var(--primary)}
+.case-header .case-title{font-size:14px;font-weight:600;color:#1E293B}
+.case-header .case-id{color:var(--primary);font-family:"SF Mono","Fira Code","Cascadia Code",monospace;margin-right:8px;font-weight:600}
+.case-header .case-meta{font-size:12px;color:#94A3B8;margin-left:12px}
+.case-header .dual-status{font-size:11px;color:#94A3B8;margin-left:8px}
+.case-body{
+  padding:0 20px 18px;display:none;
+  border-top:1px solid #F1F5F9;
+  animation:fadeIn .2s ease;
+}
+@keyframes fadeIn{from{opacity:.6}to{opacity:1}}
+.case-panel.open .case-body{display:block}
+.case-panel.open .case-header{border-bottom:0}
+.case-body h4{font-size:13px;color:#475569;margin:14px 0 8px;font-weight:700}
+.case-body table{font-size:12px;margin:8px 0}
+.case-body .checkpoints{list-style:none;margin:8px 0}
+.case-body .checkpoints li{padding:4px 0;font-size:13px;color:#334155}
+.case-body .checkpoints li::before{margin-right:8px}
+.case-body .checkpoints li.pass::before{content:"✅"}
+.case-body .checkpoints li.fail::before{content:"❌"}
+
+/* ===== Visual Analysis Block ===== */
+.visual-analysis-block{
+  background:#F8FAFC;border:1px solid #E2E8F0;
+  border-radius:8px;padding:14px 16px;margin:8px 0;font-size:13px;
+}
+.visual-analysis-block .va-row{margin:5px 0;color:#374151}
+.visual-analysis-block .va-label{font-weight:700;color:#1E293B}
+
+/* ===== Dual Validation Summary ===== */
+.dual-summary{
+  display:flex;gap:16px;flex-wrap:wrap;margin:8px 0;
+}
+.dual-tag{
+  padding:4px 14px;border-radius:16px;font-size:12px;font-weight:600;
+}
+.dual-tag.mcp-pass{background:var(--success-light);color:var(--success)}
+.dual-tag.mcp-fail{background:var(--danger-light);color:var(--danger)}
+.dual-tag.visual-pass{background:var(--success-light);color:var(--success)}
+.dual-tag.visual-fail{background:var(--danger-light);color:var(--danger)}
+.dual-tag.visual-na{background:var(--neutral-light);color:var(--neutral)}
+
+/* ===== Diff Block (for failures) ===== */
+.diff-block{
+  background:var(--danger-light);border:1px solid #FECACA;
+  border-radius:8px;padding:14px 16px;margin:8px 0;font-size:13px;
+  border-left:4px solid var(--danger);
+}
+.diff-block.visual-inconsistency{
+  border-left-color:#EC4899;
+  background:#FDF2F8;
+}
+.diff-block .diff-row{margin:5px 0;color:#374151}
+.diff-block .diff-label{font-weight:700;color:#1E293B}
+
+/* ===== Screenshots ===== */
+.screenshot-thumb{
+  max-width:200px;max-height:140px;
+  border:1px solid #E2E8F0;border-radius:8px;
+  cursor:pointer;transition:all .2s ease;margin-top:8px;
+  box-shadow:0 1px 4px rgba(0,0,0,.06);
+}
+.screenshot-thumb:hover{
+  box-shadow:0 4px 16px rgba(0,0,0,.15);
+  transform:scale(1.03);
+  border-color:var(--primary);
+}
+
+/* ===== Defect Cards ===== */
+.defect-card{
+  background:#fff;border-radius:10px;padding:18px 22px;margin-bottom:14px;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+  border-left:4px solid #E2E8F0;
+  transition:box-shadow .15s ease;
+}
+.defect-card:hover{box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.defect-card.high{border-left-color:var(--danger)}
+.defect-card.medium{border-left-color:var(--warning)}
+.defect-card.visual{border-left-color:#EC4899}
+.defect-card .defect-title{font-weight:700;margin-bottom:8px;font-size:14px;color:#1E293B}
+.defect-card .defect-row{font-size:13px;margin:4px 0;color:#475569}
+
+/* ===== Lightbox ===== */
+.lightbox{
+  display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+  background:rgba(15,23,42,.92);z-index:9999;
+  justify-content:center;align-items:center;cursor:zoom-out;
+  backdrop-filter:blur(4px);
+}
+.lightbox.show{display:flex}
+.lightbox img{max-width:92%;max-height:92%;border-radius:8px;box-shadow:0 16px 48px rgba(0,0,0,.4)}
+
+/* ===== Artifact Index ===== */
+.artifact-index{
+  background:#1E293B;border-radius:10px;padding:20px 24px;margin:16px 0;
+  box-shadow:0 2px 8px rgba(0,0,0,.15);overflow-x:auto;
+}
+.artifact-index pre{
+  font-family:"SF Mono","Fira Code","Cascadia Code",Consolas,monospace;
+  font-size:13px;line-height:1.75;color:#CBD5E1;margin:0;white-space:pre;
+}
+.artifact-dir{color:#4ADE80;font-weight:600}
+.artifact-file{color:#4ADE80}
+.artifact-comment{color:#94A3B8}
+
+/* ===== Responsive ===== */
+@media(max-width:768px){
+  .sidebar{display:none}
+  .content{padding:20px}
+  .report-header{flex-direction:column;align-items:flex-start}
+  .stat-cards{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+}
+</style>
+</head>
+<body>
+<header class="report-header">
+<div>
+<h1>人员效能看板 - E2E 测试执行报告</h1>
+<div class="meta">报告生成时间: 2026-06-19T16:30:00+08:00 | 执行模式: 实时执行 + snapshot内容验证 | 目标 URL: https://aidacc.asiainfo.com.cn:10081/lingma-assistant/findPage</div>
+</div>
+<div class="header-stats">
+<div class="header-stat"><div class="stat-num">80%</div><div class="stat-lbl">双重验证通过率 (8/10)</div></div>
+<div class="header-stat"><div class="stat-num">40%</div><div class="stat-lbl">总体通过率 (8/20)</div></div>
+</div>
+</header>
+<div class="layout">
+<nav class="sidebar">
+<h3>导航</h3>
+<nav>
+<a href="#summary" class="nav-link active">执行摘要</a>
+<a href="#matrix" class="nav-link">功能点测试矩阵</a>
+<a href="#cases" class="nav-link">用例执行明细</a>
+<a href="#defects" class="nav-link">缺陷汇总</a>
+<a href="#traceability" class="nav-link">可追溯性附录</a>
+</nav>
+</nav>
+<main class="content">
+<section id="summary">
+<h2>一、执行摘要</h2>
+<div class="stat-cards">
+<div class="stat-card total"><div class="num">20</div><div class="lbl">总用例数</div></div>
+<div class="stat-card pass"><div class="num">8</div><div class="lbl">通过 PASS (40%)</div></div>
+<div class="stat-card fail-visual"><div class="num">2</div><div class="lbl">失败-内容不一致 (10%)</div></div>
+<div class="stat-card fail-exec"><div class="num">1</div><div class="lbl">失败-执行失败 (5%)</div></div>
+<div class="stat-card notrun"><div class="num">10</div><div class="lbl">未执行 NOT_RUN (50%)</div></div>
+<div class="stat-card rate"><div class="num">80%</div><div class="lbl">内容验证通过率</div></div>
+</div>
+<h4 style="margin:20px 0 10px;color:#555">功能点概述</h4>
+<table>
+<tr><th>状态</th><th>数量</th><th>说明</th></tr>
+<tr><td><span class="badge status-pass">✅ 全部通过</span></td><td>3</td><td>该功能点下所有用例均 PASS</td></tr>
+<tr><td><span class="badge status-partial">⚠️ 部分通过</span></td><td>4</td><td>该功能点下存在 PASS，但也存在 FAIL/NOT_RUN</td></tr>
+<tr><td><span class="badge status-notrun">⬜ 未执行</span></td><td>4</td><td>该功能点下所有用例均 NOT_RUN</td></tr>
+<tr><td><strong>合计</strong></td><td><strong>11</strong></td><td></td></tr>
+</table>
+<h4 style="margin:20px 0 10px;color:#555">按优先级统计</h4>
+<table>
+<tr><th>优先级</th><th>总数</th><th>通过</th><th>失败(视觉)</th><th>失败(执行)</th><th>未执行</th><th>通过率</th></tr>
+<tr><td>L1(冒烟)</td><td>2</td><td>2</td><td>0</td><td>0</td><td>0</td><td>100% (2/2)</td></tr>
+<tr><td>L2(功能)</td><td>14</td><td>6</td><td>0</td><td>1</td><td>7</td><td>85.7% (6/7)</td></tr>
+<tr><td>L3(异常/边界)</td><td>4</td><td>0</td><td>2</td><td>0</td><td>2</td><td>0% (0/2)</td></tr>
+</table>
+</section>
+<section id="matrix">
+<h2>二、功能点测试矩阵</h2>
+<table>
+<tr><th>功能点ID</th><th>功能点名称</th><th>关联用例</th><th>用例数</th><th>通过</th><th>失败</th><th>未执行</th><th>状态</th></tr>
+<tr><td>FP-001</td><td>登录（NT 账号登录）</td><td>TC-PED-001, 001-A, 001-B</td><td>3</td><td>1</td><td>0</td><td>2</td><td><span class="badge status-partial">⚠️ 部分通过</span></td></tr>
+<tr><td>FP-002</td><td>统计类型筛选</td><td>TC-PED-002, 003</td><td>2</td><td>2</td><td>0</td><td>0</td><td><span class="badge status-pass">✅ 全部通过</span></td></tr>
+<tr><td>FP-003</td><td>选择团队筛选</td><td>TC-PED-004, 005</td><td>2</td><td>0</td><td>0</td><td>2</td><td><span class="badge status-notrun">⬜ 未执行</span></td></tr>
+<tr><td>FP-004</td><td>时间范围筛选</td><td>TC-PED-006, 007</td><td>2</td><td>0</td><td>1</td><td>1</td><td><span class="badge status-partial">⚠️ 部分通过</span></td></tr>
+<tr><td>FP-005</td><td>工具类型筛选</td><td>TC-PED-008, 009</td><td>2</td><td>2</td><td>0</td><td>0</td><td><span class="badge status-pass">✅ 全部通过</span></td></tr>
+<tr><td>FP-006</td><td>姓名搜索</td><td>TC-PED-010, 011</td><td>2</td><td>1</td><td>1</td><td>0</td><td><span class="badge status-partial">⚠️ 部分通过</span></td></tr>
+<tr><td>FP-007</td><td>组合查询</td><td>TC-PED-012</td><td>1</td><td>0</td><td>0</td><td>1</td><td><span class="badge status-notrun">⬜ 未执行</span></td></tr>
+<tr><td>FP-008</td><td>导出表格</td><td>TC-PED-013</td><td>1</td><td>0</td><td>1</td><td>0</td><td><span class="badge status-partial">⚠️ 部分通过</span></td></tr>
+<tr><td>FP-009</td><td>数据表格展示</td><td>TC-PED-014</td><td>1</td><td>1</td><td>0</td><td>0</td><td><span class="badge status-pass">✅ 全部通过</span></td></tr>
+<tr><td>FP-010</td><td>分页功能</td><td>TC-PED-015, 016, 017</td><td>3</td><td>1</td><td>0</td><td>2</td><td><span class="badge status-partial">⚠️ 部分通过</span></td></tr>
+<tr><td>FP-011</td><td>指标说明展示</td><td>TC-PED-018</td><td>1</td><td>0</td><td>0</td><td>1</td><td><span class="badge status-notrun">⬜ 未执行</span></td></tr>
+</table>
+</section>
+<section id="cases">
+<h2>三、用例执行明细</h2>
+<p style="color:#888;font-size:13px;margin-bottom:16px">点击用例标题展开/折叠详情。每条用例含双重验证（MCP 操作 + snapshot内容验证）详情。</p>
+
+<!-- TC-PED-001 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-001">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-001</span><span class="case-title">登录-正常路径</span><span class="case-meta">L1 | FP-001</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary">
+<span class="dual-tag mcp-pass">MCP 操作: ✅ 成功</span>
+<span class="dual-tag visual-pass">内容验证: ✅ 一致</span>
+</div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>验证侧边栏显示菜单项</td><td>侧边栏显示"人员效能看板"菜单</td><td>截图显示侧边栏含"人员效能看板"菜单项</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>验证 iframe 已加载</td><td>iframe 内统计类型下拉框可见</td><td>截图显示统计类型下拉框</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">跳转到 findPage 页面</li><li class="pass">页面显示侧边栏菜单（新建对话、权限管理、人员效能看板、团队效能概览、对话列表）</li><li class="pass">侧边栏底部显示当前登录用户名</li></ul>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-001_login_verified.png" alt="TC-PED-001" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-011 FAIL - 视觉不一致 -->
+<div class="case-panel open" data-status="fail" data-feature="FP-006" data-failtype="visual">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-011</span><span class="case-title">姓名搜索无结果</span><span class="case-meta">L3 | FP-006</span><span class="dual-status">MCP:✅ 验证:❌</span></div><span class="badge status-fail-visual">👁️ FAIL(内容不一致)</span></div>
+<div class="case-body">
+<div class="dual-summary">
+<span class="dual-tag mcp-pass">MCP 操作: ✅ 成功</span>
+<span class="dual-tag visual-fail">内容验证: ❌ 不一致</span>
+</div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>输入不存在的姓名"zzzzzz不存在"</td><td>输入框显示"zzzzzz不存在"</td><td>输入框显示"zzzzzz不存在"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>点击查询按钮</td><td>表格显示空数据或"暂无数据"提示</td><td>表格仍显示之前的数据，未清空</td><td>不一致：表格未清空</td><td>❌</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">输入框已填入不存在的姓名</li><li class="fail">表格显示空数据或"暂无数据"提示 — 表格未清空，仍显示之前查询结果</li></ul>
+<div class="diff-block visual-inconsistency">
+<div class="diff-row"><span class="diff-label">失败类型:</span>👁️ 内容不一致 — MCP 操作全部成功执行，但 AI 语义判断页面状态不满足预期</div>
+<div class="diff-row"><span class="diff-label">预期:</span>表格显示空数据或"暂无数据"提示，数据总条数显示为 0</div>
+<div class="diff-row"><span class="diff-label">实际:</span>表格保持上一次查询结果不变，未显示"暂无数据"提示</div>
+<div class="diff-row"><span class="diff-label">可能原因:</span>前端未正确处理后端返回的空数据集，或 iframe 上下文中表格数据更新逻辑异常</div>
+</div>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-011_name_no_result.png" alt="TC-PED-011" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-007 FAIL - 视觉不一致 -->
+<div class="case-panel open" data-status="fail" data-feature="FP-004" data-failtype="visual">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-007</span><span class="case-title">时间范围为空</span><span class="case-meta">L3 | FP-004</span><span class="dual-status">MCP:✅ 验证:❌</span></div><span class="badge status-fail-visual">👁️ FAIL(内容不一致)</span></div>
+<div class="case-body">
+<div class="dual-summary">
+<span class="dual-tag mcp-pass">MCP 操作: ✅ 成功</span>
+<span class="dual-tag visual-fail">内容验证: ❌ 不一致</span>
+</div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>清空开始时间</td><td>开始时间为空</td><td>开始时间为空</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>点击查询按钮</td><td>提示"请选择时间范围"</td><td>无提示，表格直接刷新</td><td>不一致：未出现校验提示</td><td>❌</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">开始时间已清空</li><li class="fail">提示"请选择时间范围" — 截图未出现校验提示</li><li class="fail">表格数据不刷新 — 表格已刷新显示全量数据</li></ul>
+<div class="diff-block visual-inconsistency">
+<div class="diff-row"><span class="diff-label">失败类型:</span>👁️ 内容不一致 — MCP 操作全部成功执行，但 AI 语义判断页面状态不满足预期</div>
+<div class="diff-row"><span class="diff-label">预期:</span>清空时间范围后点击查询，应弹出校验提示"请选择时间范围"，且表格不刷新</div>
+<div class="diff-row"><span class="diff-label">实际:</span>清空时间范围后点击查询，未弹出任何提示，表格直接刷新显示全量数据</div>
+<div class="diff-row"><span class="diff-label">可能原因:</span>前端校验逻辑缺失（功能缺陷）</div>
+</div>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-007_time_range_empty.png" alt="TC-PED-007" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-013 FAIL - 执行失败 -->
+<div class="case-panel open" data-status="fail" data-feature="FP-008" data-failtype="exec">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-013</span><span class="case-title">导出表格</span><span class="case-meta">L2 | FP-008</span><span class="dual-status">MCP:❌ 验证:—</span></div><span class="badge status-fail-exec">🔧 FAIL(执行失败)</span></div>
+<div class="case-body">
+<div class="dual-summary">
+<span class="dual-tag mcp-fail">MCP 操作: ❌ 失败</span>
+<span class="dual-tag visual-na">内容验证: — 无法分析</span>
+</div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>点击导出表格按钮</td><td>触发文件下载</td><td>元素未找到</td><td>无法分析</td><td>❌</td></tr></table>
+<div class="diff-block">
+<div class="diff-row"><span class="diff-label">失败类型:</span>🔧 执行失败 — 操作失败</div>
+<div class="diff-row"><span class="diff-label">尝试定位:</span>snapshot 中搜索 "导出表格" 按钮对应的 uid</div>
+<div class="diff-row"><span class="diff-label">实际状态:</span>元素不可见或 DOM 结构已变更</div>
+<div class="diff-row"><span class="diff-label">建议:</span>重新 snapshot 定位 uid 后重试</div>
+</div>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-013_export.png" alt="TC-PED-013" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-002 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-002">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-002</span><span class="case-title">统计类型筛选（所有部门）</span><span class="case-meta">L2 | FP-002</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary">
+<span class="dual-tag mcp-pass">MCP 操作: ✅ 成功</span>
+<span class="dual-tag visual-pass">内容验证: ✅ 一致</span>
+</div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>点击统计类型下拉框</td><td>下拉框展开显示选项</td><td>截图显示下拉框已展开</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>选择"所有部门"</td><td>下拉框显示"所有部门"</td><td>截图显示已选中"所有部门"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>3</td><td>点击查询按钮</td><td>表格数据刷新</td><td>截图显示表格数据已刷新</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">表格数据按"所有部门"统计类型刷新</li><li class="pass">表格显示所有部门的人员效能数据</li><li class="pass">数据总条数更新</li></ul>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-002_statistics_all_dept.png" alt="TC-PED-002" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-003 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-002">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-003</span><span class="case-title">统计类型筛选（PSO省份）</span><span class="case-meta">L2 | FP-002</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>点击统计类型下拉框</td><td>下拉框展开</td><td>截图显示下拉框已展开</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>选择"PSO省份"</td><td>下拉框显示"PSO省份"</td><td>截图显示已选中"PSO省份"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>3</td><td>点击查询按钮</td><td>表格数据按PSO省份刷新</td><td>截图显示表格数据已刷新</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-003_statistics_pso_province.png" alt="TC-PED-003" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-008 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-005">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-008</span><span class="case-title">工具类型筛选（Lingma）</span><span class="case-meta">L2 | FP-005</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>点击工具类型下拉框</td><td>下拉框展开显示选项</td><td>截图显示下拉框已展开</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>选择"Lingma"</td><td>下拉框显示"Lingma"</td><td>截图显示已选中"Lingma"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>3</td><td>点击查询按钮</td><td>表格数据刷新</td><td>截图显示表格仅显示 Lingma 记录</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">表格数据仅显示工具类型为"Lingma"的记录</li><li class="pass">表格中"工具类型"列全部显示"Lingma"</li></ul>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-008_tool_type_lingma.png" alt="TC-PED-008" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-009 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-005">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-009</span><span class="case-title">工具类型筛选（Qoder）</span><span class="case-meta">L2 | FP-005</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>点击工具类型下拉框</td><td>下拉框展开显示选项</td><td>截图显示下拉框已展开</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>选择"Qoder"</td><td>下拉框显示"Qoder"</td><td>截图显示已选中"Qoder"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>3</td><td>点击查询按钮</td><td>表格数据刷新</td><td>截图显示表格仅显示 Qoder 记录</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-009_tool_type_qoder.png" alt="TC-PED-009" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-010 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-006">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-010</span><span class="case-title">姓名搜索</span><span class="case-meta">L2 | FP-006</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>输入姓名"朱晓"</td><td>姓名输入框显示"朱晓"</td><td>截图显示输入框已填入"朱晓"</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>点击查询按钮</td><td>表格刷新显示结果</td><td>截图显示表格数据已刷新</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-010_name_search.png" alt="TC-PED-010" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-014 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-009">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-014</span><span class="case-title">数据表格展示</span><span class="case-meta">L1 | FP-009</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>观察表格列头</td><td>列头包含15列</td><td>截图显示列头含序号/工具类型/姓名等15列</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>观察表格数据行</td><td>至少显示20条数据</td><td>截图显示表格有数据行</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>3</td><td>验证数据总条数</td><td>显示"共 1775 条"</td><td>截图显示底部"共 1775 条"</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>内容验证详情</h4>
+<ul class="checkpoints"><li class="pass">表格列头包含：序号、工具类型、姓名、部门等15列</li><li class="pass">表格至少显示 20 条数据</li><li class="pass">数据总条数显示"共 1775 条"</li></ul>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-014_table_display.png" alt="TC-PED-014" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- TC-PED-016 PASS -->
+<div class="case-panel" data-status="pass" data-feature="FP-010">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-016</span><span class="case-title">分页-跳转到指定页</span><span class="case-meta">L2 | FP-010</span><span class="dual-status">MCP:✅ 验证:✅</span></div><span class="badge status-pass">✅ PASS</span></div>
+<div class="case-body">
+<div class="dual-summary"><span class="dual-tag mcp-pass">MCP 操作: ✅</span><span class="dual-tag visual-pass">内容验证: ✅</span></div>
+<h4>步骤明细</h4>
+<table><tr><th>步骤</th><th>操作</th><th>预期结果</th><th>实际结果</th><th>内容验证</th><th>判定</th></tr>
+<tr><td>1</td><td>在页码输入框输入页码 5</td><td>输入框显示"5"</td><td>截图显示页码输入框已填入 5</td><td>与预期一致</td><td>✅</td></tr>
+<tr><td>2</td><td>按回车确认</td><td>表格切换到第5页</td><td>截图显示表格数据已切换</td><td>与预期一致</td><td>✅</td></tr></table>
+<h4>截图证据</h4>
+<img class="screenshot-thumb" src="../screenshots/TC-PED-016_goto_page5.png" alt="TC-PED-016" onclick="openLightbox(this.src)">
+</div></div>
+
+<!-- NOT_RUN cases -->
+<div class="case-panel" data-status="notrun" data-feature="FP-001">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-001-A</span><span class="case-title">登录-NT账号为空</span><span class="case-meta">L3 | FP-001</span><span class="dual-status">MCP:— 视觉:—</span></div><span class="badge status-notrun">⬜ NOT_RUN</span></div>
+<div class="case-body"><p style="color:#999;font-size:13px">无执行证据 — 未找到截图文件</p><h4>预期验证点</h4><ul class="checkpoints"><li>提示"NT账号不能为空"或类似校验提示</li><li>不跳转，停留在登录页</li></ul></div></div>
+
+<div class="case-panel" data-status="notrun" data-feature="FP-001">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-001-B</span><span class="case-title">登录-密码为空</span><span class="case-meta">L3 | FP-001</span><span class="dual-status">MCP:— 视觉:—</span></div><span class="badge status-notrun">⬜ NOT_RUN</span></div>
+<div class="case-body"><p style="color:#999;font-size:13px">无执行证据 — 未找到截图文件</p><h4>预期验证点</h4><ul class="checkpoints"><li>提示"密码不能为空"或类似校验提示</li><li>不跳转，停留在登录页</li></ul></div></div>
+
+<div class="case-panel" data-status="notrun" data-feature="FP-003">
+<div class="case-header"><div><span class="toggle-arrow">▶</span><span class="case-id">TC-PED-004</span><span class="case-title">选择团队筛选（单选）</span><span class="case-meta">L2 | FP-003</span></div><span class="badge status-notrun">⬜ NOT_RUN</span></div>
+<div class="case-body"><p style="color:#999;font-size:13px">无执行证据</p></div></div>
+
+</section>
+
+<section id="defects">
+<h2>四、缺陷汇总</h2>
+
+<div class="defect-card medium visual">
+<div class="defect-title">BUG-001 <span class="badge badge-fail-type status-fail-visual">👁️ 内容不一致</span> <span class="badge sev-medium">中</span> — 姓名搜索无结果时表格未清空</div>
+<div class="defect-row"><strong>关联用例:</strong> TC-PED-011 | <strong>功能点:</strong> FP-006 | <strong>失败类型:</strong> MCP ✅ 但 snapshot ❌</div>
+<div class="defect-row"><strong>现象:</strong> 输入不存在的姓名后点击查询，表格未清空也未显示"暂无数据"提示，仍显示之前查询的数据</div>
+<div class="defect-row"><strong>判断:</strong> MCP 操作全部成功，但 AI 语义判断页面状态不满足预期 → 内容不一致</div>
+<div class="defect-row"><strong>状态:</strong> 新发现</div>
+</div>
+
+<div class="defect-card medium visual">
+<div class="defect-title">BUG-002 <span class="badge badge-fail-type status-fail-visual">👁️ 内容不一致</span> <span class="badge sev-medium">中</span> — 时间范围为空时校验缺失</div>
+<div class="defect-row"><strong>关联用例:</strong> TC-PED-007 | <strong>功能点:</strong> FP-004 | <strong>失败类型:</strong> MCP ✅ 但 snapshot ❌</div>
+<div class="defect-row"><strong>现象:</strong> 清空开始时间后点击查询，未弹出校验提示，表格直接刷新</div>
+<div class="defect-row"><strong>判断:</strong> MCP 操作全部成功，但 AI 语义判断页面状态不满足预期 → 内容不一致</div>
+<div class="defect-row"><strong>状态:</strong> 新发现</div>
+</div>
+
+<div class="defect-card high">
+<div class="defect-title">BUG-003 <span class="badge badge-fail-type status-fail-exec">🔧 执行失败</span> <span class="badge sev-high">高</span> — 导出表格按钮 uid 定位失败</div>
+<div class="defect-row"><strong>关联用例:</strong> TC-PED-013 | <strong>功能点:</strong> FP-008 | <strong>失败类型:</strong> MCP ❌ 执行失败</div>
+<div class="defect-row"><strong>现象:</strong> snapshot 中未找到 "导出表格" 按钮对应的 uid</div>
+<div class="defect-row"><strong>状态:</strong> 待确认</div>
+</div>
+</section>
+
+<section id="traceability">
+<h2>五、可追溯性附录</h2>
+
+<h4 style="margin:20px 0 10px;color:#555">5.1 产物索引</h4>
+<div class="artifact-index">
+<pre><span class="artifact-dir">ui-tests/</span>
+├── <span class="artifact-dir">test-cases/</span>
+│   ├── <span class="artifact-file">人员效能看板.md</span>              <span class="artifact-comment"># 测试用例（20条）</span>
+│   └── <span class="artifact-file">人员效能看板.page-structure.yaml</span>    <span class="artifact-comment"># 功能点清单（11点）</span>
+├── <span class="artifact-dir">screenshots/</span>
+│   └── <span class="artifact-dir">人员效能看板-01/</span>          <span class="artifact-comment"># 本轮截图（10张）</span>
+│           ├── <span class="artifact-file">TC-PED-001_login_verified.png</span>
+│           ├── <span class="artifact-file">TC-PED-002_statistics_all_dept.png</span>
+│           ├── <span class="artifact-file">TC-PED-003_statistics_pso_province.png</span>
+│           ├── <span class="artifact-file">TC-PED-007_time_range_empty.png</span>
+│           ├── <span class="artifact-file">TC-PED-008_tool_type_lingma.png</span>
+│           ├── <span class="artifact-file">TC-PED-009_tool_type_qoder.png</span>
+│           ├── <span class="artifact-file">TC-PED-010_name_search.png</span>
+│           ├── <span class="artifact-file">TC-PED-011_name_no_result.png</span>
+│           ├── <span class="artifact-file">TC-PED-013_export.png</span>
+│           ├── <span class="artifact-file">TC-PED-014_table_display.png</span>
+│           └── <span class="artifact-file">TC-PED-016_goto_page5.png</span>
+└── <span class="artifact-dir">reports/</span>
+    ├── <span class="artifact-file">人员效能看板-report.md</span>       <span class="artifact-comment"># 本报告（Markdown）</span>
+    ├── <span class="artifact-file">人员效能看板.report.yaml</span>     <span class="artifact-comment"># 结构化数据</span>
+    └── <span class="artifact-file">人员效能看板-report.html</span>     <span class="artifact-comment"># 本页面（HTML）</span>
+</pre>
+</div>
+
+<h4 style="margin:20px 0 10px;color:#555">5.2 数据链路完整性校验</h4>
+<table>
+<tr><th>校验项</th><th>结果</th><th>说明</th></tr>
+<tr><td>.page-structure.yaml 用例数 = .md 用例数</td><td>✅ 20 = 20</td><td>功能点清单与用例文件一致</td></tr>
+<tr><td>.md 用例数 = 执行用例数</td><td>✅ 20 = 20</td><td>测试用例与执行用例一一对应</td></tr>
+<tr><td>.page-structure.yaml 功能点数</td><td>✅ 11</td><td>FP-001 ~ FP-011</td></tr>
+<tr><td>截图文件存在数</td><td>⚠️ 10/20</td><td>10张截图存在，10条用例无截图</td></tr>
+<tr><td>snapshot内容验证完成数</td><td>⚠️ 8/10</td><td>8条已完成snapshot内容验证</td></tr>
+<tr><td>内容验证通过率</td><td>✅ 80% (8/10)</td><td>已验证用例中8条通过</td></tr>
+<tr><td>用例编号唯一性</td><td>✅ 20个唯一编号</td><td>无重复编号</td></tr>
+</table>
+</section>
+</main>
+</div>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()"><img id="lightbox-img" src="" alt="截图放大"></div>
+<script>
+// 用例折叠展开
+document.querySelectorAll('.case-header').forEach(function(h){
+  h.addEventListener('click',function(){
+    this.parentElement.classList.toggle('open');
+  });
+});
+// 侧边栏锚点导航 + scrollspy
+var navLinks=document.querySelectorAll('.nav-link');
+var sections=document.querySelectorAll('section');
+navLinks.forEach(function(l){l.addEventListener('click',function(e){
+  e.preventDefault();
+  var t=document.querySelector(this.getAttribute('href'));
+  if(t){t.scrollIntoView({behavior:'smooth'});}
+});});
+window.addEventListener('scroll',function(){
+  var cur=sections[0].id;
+  var off=120;
+  sections.forEach(function(s){
+    if(window.scrollY>=s.offsetTop-off){cur=s.id;}
+  });
+  navLinks.forEach(function(l){
+    l.classList.toggle('active',l.getAttribute('href')==='#'+cur);
+  });
+});
+// 截图 lightbox
+function openLightbox(src){var lb=document.getElementById('lightbox');document.getElementById('lightbox-img').src=src;lb.classList.add('show');}
+function closeLightbox(){document.getElementById('lightbox').classList.remove('show');}
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeLightbox();}});
+</script>
+</body>
+</html>
